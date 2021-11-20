@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<!-- BEGIN: Head-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+  <title>Create a Pipeline</title>
+
+  <!-- BEGIN: GIN CSS-->
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/gin-favicons/favicon-16x16.png">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/custom.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/colors.min.css">
+  <!-- Essential Studio for JavaScript  GIN reference -->
+
+
+  <link href="http://cdn.syncfusion.com/17.4.0.46/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
+  <!-- END: GIN CSS-->
+
+  <!-- BEGIN: Custom CSS-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/homepage.css">
+  <!-- END: Custom CSS-->
+
+  <!-- BEGIN: Page JS-->
+  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+  <script src="./assets/js/sidebar.js"></script>
+  <!-- END: Page JS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="horizontal-layout horizontal-menu 2-columns  " data-open="click" data-menu="horizontal-menu"
+  data-col="2-columns">
+
+  <!-- BEGIN: Header-->
+  <header id="headerNavbar">
+    <div class="container">
+      <nav class="navbar px-0">
+        <a class="navbar-brand" href="index.html">
+          <img class="brand-logo" alt="Global Games Industry Network Logo" src="assets/images/logo/logo.png">
+        </a>
+
+        <ul class="nav-list ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><img src="assets/images/home-generted-white.svg" alt=""
+                                class="nav-img-cons-white mb-50" width="30"><img
+                                src="assets/images/home-generted-black.svg" class="nav-img-cons-black mb-50" width="30"
+                                alt=""><br>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="database.html"><i class="fa fa-database"></i><br>Industry <br>
+              Database <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html"><img src="assets/images/icons/Icons-in-White-02.svg" alt=""
+                class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-02.svg"
+                class="nav-img-cons-black" width="48" alt="">
+              <br>Events/<br class="d-none d-lg-flex">Planning</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="networking.html"><img src="assets/images/icons/Icons-in-White-04.svg" alt=""
+                class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-04.svg"
+                class="nav-img-cons-black" width="48" alt=""><br>Industry <br>
+              Network<span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="marketplace.html"><img src="assets/images/icons/Icons-in-White-18.svg" alt=""
+                class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-03.svg"
+                class="nav-img-cons-black" width="48" alt=""><br>Marketplace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="crm-contacts.html"><i class="fa fa-address-card"></i><br>
+                            Biz Dev<br class="d-none d-lg-flex">
+                            Contacts <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="crm.html"><img src="assets/images/icons/Icons-in-White-01.svg" alt=""
+                class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-01.svg" width="48"
+                class="nav-img-cons-black" alt=""><br>Biz Dev<br class="d-none d-lg-flex">pipeline <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item d-block d-md-none">
+            <a class="nav-link" href=""><i class="fa fa-newspaper-o"></i><br>
+              Industry News <span class="text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item d-block d-md-none">
+            <a class="nav-link" href=""><i class="fa fa-file-text"></i><br>
+              News from our team <span class="text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item d-block d-md-none">
+            <a class="nav-link" href="profile.html"><i class="fa fa-user"></i><br>
+              My Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html"><i class="fa fa-tags"></i><br>
+              Pricing</a>
+          </li>
+          <li class="nav-item auth-link border-0">
+            <div class="dropdown pt-1">
+                                <a class="nav-link nav-item-wrapper dropdown-toggle bg-transparent" href="#" role="button"
+                                    id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="assets/images/portrait/small/avatar-s-1.png" class="round mr-50" width="40px" alt="user-avatar">
+                                    <p>Scott</p>
+                                </a>
+                            
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#"><i class="fa fa-user" aria-hidden="true"></i> Profile</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+                                </div>
+                            </div>
+          </li>
+        </ul>
+        <div class="menu-toggle">
+          <div class="hamburger">
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- END: Header-->
+
+  <div class="container the-container mb-2">
+    <button class="navbar-toggler profile-mobi mb-1" type="button" onclick="openNav()">&#9776; Profile</button>
+    <div class="row m-0">
+
+      <div class="col-md-12">
+        <!-- BEGIN: Content-->
+        <div class="center-layout">
+          <div class="content-overlay"></div>
+          <div class="content-wrapper">
+            <div class="content-body">
+              <!-- Biz Dev header card -->
+              <div class="row">
+                <div id="recent-transactions" class="col-12">
+                  <div class="card">
+                    <div class="card-header bg-light">
+                      <h4 class="card-title text-center text-bold-600">Biz Dev</h4>
+                      <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+                    </div>
+                    <div class="card-content">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-6">
+                            <p class="card-text">Team Pipelines/ Opportunities</p>
+                          </div>
+                          <div class="col-6">
+                            <fieldset class="float-right">
+                              <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search..."
+                                  aria-describedby="basic-addon3">
+                                <div class="input-group-append">
+                                  <span class="input-group-text" id="basic-addon3">
+                                    <ion-icon name="search"></ion-icon>
+                                  </span>
+                                </div>
+                              </div>
+                            </fieldset>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-6 col-lg-4 col-md-4 col-sm-12 col-12 d-flex">
+                            <input id="fileid" type="file" name="file" onchange="tableStructure()" hidden>
+                            <button id="buttonid" onclick="location.href='#'"
+                              class="btn btn-block btn-danger rounded-pill btn-min-width mr-1 mb-1 e-customaddbutton dropdown-toggle dropdown-menu-right mt-25"
+                              type="button"><i class="fa fa-upload"></i>&nbsp;
+                              Load File</button>
+                            <button onclick="location.href='#'"
+                              class="btn btn-block btn-outline-secondary rounded-pill btn-min-width mr-1 mb-1 mt-25"><i
+                                class="fa fa-times"></i>&nbsp; Cancel</button>
+                          </div>
+                          <div class="col-6 col-lg col-md col-sm-12 col-12 d-none d-lg-flex">
+                            <a class="heading-elements-toggle"><i class="la la-ellipsis font-medium-3"></i></a>
+                            <div class="heading-elements float-left pt-1 d-flex overflow-auto ml-auto">
+                              <ul class="list-inline mb-0">
+                                <li>
+                                  <a>
+                                    <ion-icon name="funnel" class="font-medium-3 md hydrated" role="img"
+                                      aria-label="funnel"></ion-icon><span> Filter</span>
+                                    <ion-icon name="arrow-dropdown" role="img" class="md hydrated"
+                                      aria-label="arrow dropdown"></ion-icon>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a>
+                                    <ion-icon name="menu" class="font-medium-3 md hydrated" role="img"
+                                      aria-label="menu"></ion-icon><span>Group by</span>
+                                    <ion-icon name="arrow-dropdown" role="img" class="md hydrated"
+                                      aria-label="arrow dropdown"></ion-icon>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a>
+                                    <ion-icon name="star" class="font-medium-3 md hydrated" role="img"
+                                      aria-label="star"></ion-icon><span>Favorites</span>
+                                    <ion-icon name="arrow-dropdown" role="img" class="md hydrated"
+                                      aria-label="arrow dropdown"></ion-icon>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="heading-elements float-right pt-1 d-flex overflow-auto ml-auto">
+                              <ul class="list-inline mb-0">
+                                <li>
+                                  <a href="crm.html" class="text-dark">
+                                    <ion-icon name="apps" size="large" role="img" class="md icon-large hydrated"
+                                      aria-label="apps"></ion-icon>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="crm-list-layout.html" class="text-dark">
+                                    <ion-icon name="menu" size="large" role="img" class="md icon-large hydrated"
+                                      aria-label="menu"></ion-icon>&nbsp;
+                                  </a>
+                                </li>
+                                <li>
+                                  <a>
+                                    <ion-icon name="calendar" size="large" role="img" class="md icon-large hydrated"
+                                      aria-label="calendar"></ion-icon>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END: Biz Dev header card -->
+              <!-- Basic Kanban App -->
+              <section class="card bg-transparent box-shadow-0">
+                <div class="card-content">
+                  <div class="card-body align-middle text-center">
+                    <ion-icon name="document" size="large"></ion-icon>
+                    <h4>Select a CSV or Excel file to import</h4>
+                    <p>Excel files are recommended as fields formatting is automatic.</p>
+                    <p>Need Help?</p>
+                    <a href="#" onclick="window.open('assets/docs/crm_lead.xls')">
+                      <ion-item>
+                        <ion-icon name="swap"></ion-icon>
+                        <span>Import Template for Leads & Opportunities</span>
+                      </ion-item>
+                    </a>
+                    <br>
+                    <a href="#">Import FAQ</a>
+                  </div>
+                </div>
+              </section>
+              <!--/ Sample Project kanban -->
+
+            </div>
+          </div>
+        </div>
+        <!-- END: Content-->
+      </div>
+    </div>
+  </div>
+
+  <footer class="h--200">
+    <div class="col-md-4 m-auto social-icon-section">
+      <div class="col-3 social-icon">
+        <a href="#"><i class="fa fa-facebook-square"></i></a>
+      </div>
+      <div class="col-3 social-icon">
+        <a href="#"><i class="fa fa-twitter-square"></i></a>
+      </div>
+      <div class="col-3 social-icon">
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+      </div>
+      <div class="col-3 social-icon">
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="abt-link-section">
+      <a href="#">IMPRINT / IMPRESSUM</a>
+    </div>
+    <div class="p-2">
+      &copy;2020 Games Industry Network
+    </div>
+  </footer>
+
+
+  <!-- BEGIN: Vendor JS-->
+  <script src="assets/js/vendors/js/vendors.min.js"></script>
+  <!-- BEGIN Vendor JS-->
+
+  <!-- BEGIN: Page Vendor JS-->
+  <script src="assets/js/vendors/js/ui/jquery.sticky.js"></script>
+  <script src="assets/js/nav-toggler.js"></script>
+  <!-- END: Page Vendor JS-->
+
+  <!-- Essential Studio for JavaScript  script references -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
+  <script src="http://cdn.syncfusion.com/17.4.0.46/js/web/ej.web.all.min.js"></script>
+
+  <script type="text/javascript">
+    document.getElementById('buttonid').addEventListener('click', openDialog);
+
+    function openDialog() {
+      document.getElementById('fileid').click();
+    }
+
+    function tableStructure() {
+      window.location = "crm-pipeline-import-stage-2.html";
+    }
+  </script>
+
+  <!-- Add your custom scripts here -->
+
+</body>
+<!-- END: Body-->
+
+</html>

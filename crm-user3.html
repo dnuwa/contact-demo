@@ -1,0 +1,1894 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!-- BEGIN: Head-->
+
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+  <title>Biz Dev Business User</title>
+
+  <!-- BEGIN: GIN CSS-->
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/gin-favicons/favicon-16x16.png">
+  <link rel="stylesheet" type="text/css" href="assets/js/vendors/js/dataTables.bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/custom.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/colors.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.quilljs.com/1.3.6/quill.snow.css">
+  <!-- END: GIN CSS-->
+
+  <!-- BEGIN: Custom CSS-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/star-rating-svg.css">
+  <!-- END: Custom CSS-->
+
+  <!-- BEGIN: Page JS-->
+  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+  <!-- END: Page JS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    /* Dropdown Button */
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: #ddd
+    }
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container
+                              when the user clicks on the dropdown button) */
+    .showBtn {
+      display: block;
+    }
+  </style>
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="horizontal-layout horizontal-menu 2-columns  " data-open="click" data-menu="horizontal-menu"
+  data-col="2-columns">
+
+  <!-- BEGIN: Header-->
+  <header id="headerNavbar">
+    <div class="container">
+      <nav class="navbar px-0">
+        <a class="navbar-brand" href="index.html">
+          <img class="brand-logo" alt="Global Games Industry Network Logo" src="assets/images/logo/logo.png">
+        </a>
+
+        <ul class="nav-list ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><img src="assets/images/home-generted-white.svg" alt=""
+                class="nav-img-cons-white mb-50" width="30"><img src="assets/images/home-generted-black.svg"
+                class="nav-img-cons-black mb-50" width="30" alt=""><br>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="database.html"><i class="fa fa-database"></i><br>Industry <br>
+              Database <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html"><img src="assets/images/icons/Icons-in-White-02.svg" alt=""
+                class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-02.svg"
+                class="nav-img-cons-black" width="48" alt="">
+              <br>Events/<br class="d-none d-lg-flex">Planning</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="networking.html"><img src="assets/images/icons/Icons-in-White-04.svg" alt=""
+                class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-04.svg"
+                class="nav-img-cons-black" width="48" alt=""><br>Industry <br>
+              Network<span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="marketplace.html"><img src="assets/images/icons/Icons-in-White-18.svg" alt=""
+                class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-03.svg"
+                class="nav-img-cons-black" width="48" alt=""><br>Marketplace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="crm-contacts.html"><i class="fa fa-address-card"></i><br>
+              Biz Dev<br class="d-none d-lg-flex">
+              Contacts <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="crm.html"><img src="assets/images/icons/Icons-in-White-01.svg" alt=""
+                class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-01.svg" width="48"
+                class="nav-img-cons-black" alt=""><br>Biz Dev<br class="d-none d-lg-flex">pipeline <span
+                class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item d-block d-md-none">
+            <a class="nav-link" href=""><i class="fa fa-newspaper-o"></i><br>
+              Industry News <span class="text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item d-block d-md-none">
+            <a class="nav-link" href=""><i class="fa fa-file-text"></i><br>
+              News from our team <span class="text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item d-block d-md-none">
+            <a class="nav-link" href="profile.html"><i class="fa fa-user"></i><br>
+              My Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html"><i class="fa fa-tags"></i><br>
+              Pricing</a>
+          </li>
+          <li class="nav-item auth-link border-0">
+            <div class="dropdown pt-1">
+                                <a class="nav-link nav-item-wrapper dropdown-toggle bg-transparent" href="#" role="button"
+                                    id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="assets/images/portrait/small/avatar-s-1.png" class="round mr-50" width="40px" alt="user-avatar">
+                                    <p>Scott</p>
+                                </a>
+                            
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#"><i class="fa fa-user" aria-hidden="true"></i> Profile</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+                                </div>
+                            </div>
+          </li>
+        </ul>
+        <div class="menu-toggle">
+          <div class="hamburger">
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- END: Header-->
+
+  <!-- END: Main Menu-->
+  <!-- BEGIN: Content-->
+  <div id="crm_user3" class="app-content center-layout mt-2 mx-2">
+    <div class="container">
+      <div class="content-overlay"></div>
+      <div class="content-wrapper">
+        <div class="content-header row pt-2">
+          <div class="content-header-left col-md-12 col-12 mb-25">
+            <div
+              class="d-flex align-items-center justify-content-between bg-red-extra p-2 rounded text-white headder--cont">
+              <div>
+                <h3 class="content-header-title mb-0 text-uppercase text-bold-600 text-white">gin crm
+                  for (harald
+                  riegler)</h3>
+              </div>
+              <div>
+                <h3 class="content-header-title mb-0 text-uppercase text-bold-600 text-white">
+                  To Do Tasks and Notes
+                </h3>
+              </div>
+              <div>
+                <h3 class="content-header-title mb-0 text-uppercase text-bold-600 text-transparent d-none d-sm-flex">
+                  Delete Biz Dev Contacts
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar-detached sidebar-left ps">
+          <div class="sidebar">
+            <div class="bug-list-sidebar-content">
+              <!-- Predefined Views -->
+              <div class="card mb-sm-25">
+                <div class="card-header pb-0">
+                  <p class="text-muted mb-50 pb-25 d-block d-sm-none pull-right">Attending (xx) upcoming events</p>
+                  <div class="media w-100">
+                    <img src="assets/images/portrait/large/avatar-l-1.png"
+                      class="img-fluid rounded-circle border-white border-3 media-left" alt="timeline image"
+                      height="100" width="100">
+                    <div class="upload-link-crm text-center" title="update" data-toggle="tooltip"
+                      data-placement="right">
+                      <input id="profile1" type="file" class="update-flie" hidden>
+                      <a id="profileUpload">
+                        <ion-item>
+                          <ion-icon class="icon md icon-small hydrated" name="camera" size="small" role="img"
+                            aria-label="people outline"></ion-icon>
+                          <!--<span class="text">Profile</span> -->
+                        </ion-item>
+                      </a>
+                    </div>
+                    <div class="media-body mx-50 mt-2">
+                      <!-- <h4 class="mt-1 mb-75 text-uppercase">harald riegler</h4> -->
+                      <h3 class="m-0 text-capitalize text-bold-600">First Name</h3>
+                      <h3 class="m-0 text-capitalize text-bold-600">Last Name</h3>
+                      <!-- <h5 class="m-0 text-capitalize">Company Name</h5> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12 text-center">
+                        <p class="text-muted mb-50 pb-25 d-none d-sm-block">Attending (xx) upcoming events</p>
+                        <h4 class="card-subtitle text-muted mb-50 pb-25 text-bold-600">(Title)
+                        </h4>
+                        <h4 class="card-subtitle text-muted mb-50 pb-25 text-bold-600">Name of
+                          Company</h4>
+                      </div>
+                    </div>
+
+                    <div class="profile-card-with-cover-content text-center">
+                      <div class="card-body py-25">
+                        <div class="d-flex justify-content-center align-items-center">
+                          <div class="d-flex red-diamond" data-toggle="tooltip" data-placement="top" title=""
+                            data-original-title="Pontential">
+                            <div class="p-25">
+                              <img src="assets/images/diamonds-05.svg" width="30" alt=""
+                                class="img-fluid bg-transparent p-0 border-0">
+                            </div>
+                            <div class="p-25">
+                              <img src="assets/images/diamonds-05.svg" width="30" alt=""
+                                class="img-fluid bg-transparent p-0 border-0">
+                            </div>
+                            <div class="p-25">
+                              <img src="assets/images/diamonds-03.svg" width="30" alt=""
+                                class="img-fluid bg-transparent p-0 border-0">
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="socially-icons px-50 ml-25 border-0" data-toggle="tooltip" data-placement="top"
+                            title="" data-original-title="Connections">
+                            <span onclick="location.href='user-connection.html'"><i
+                                class="fa fa-handshake-o fs-17 handshaky"></i>
+                              (xx)</span>
+                          </div>
+                          <div class="socially-icons px-50 ml-25 border-0" data-toggle="tooltip" data-placement="top"
+                            title="" data-original-title="Mutual Connections">
+                            <a data-toggle="modal" data-target="#mutualConnections">
+                              <i class="fa fa-link fs-17"></i>
+                              (xx)
+                            </a>
+                          </div>
+                          <div class="socially-icons px-50 ml-25 border-0" data-toggle="tooltip" data-placement="top"
+                            title="" data-original-title="Meeting Calendar">
+                            <img src="assets/images/icons/Icons-in-Black-02.svg" width="35" alt=""> (xx)
+                          </div>
+                        </div>
+
+
+                        <div class="d-flex flex-column my-50">
+                          <button type="button" onclick="location.href='#'"
+                            class="btn btn-sm btn-outline-message btn-round pull-right mt-25 mx-auto btn-100"
+                            data-toggle="tooltip" data-placement="top" title="" data-original-title="Follow">
+                            <i class="fa fa-rss-square"></i>
+                            Follow
+                          </button>
+                          <button type="button"
+                            class="btn btn-outline-connect btn-sm btn-round pull-right mt-25 mx-auto btn-100">
+                            <i class="fa fa-handshake-o"></i>
+                            Connect
+                          </button>
+                          <button type="button" onclick="location.href='#'"
+                            class="btn btn-sm btn-outline-message btn-round pull-right mt-25 mx-auto btn-100"
+                            data-toggle="modal" data-target="#exampleModalCenter">
+                            <i class="fa fa-comment"></i>
+                            Message
+                          </button>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+
+                  </div>
+                  <div class="row no-gutters">
+                    <div class="col-12">
+                      <button type="button" name="button" class="btn btn-block rounded-0 rounded-bottom mt-0
+                        bg-dark-33 text-center btn-social  text-white" data-toggle="tooltip" data-placement="top"
+                        title="Add to
+                        pipeline" data-original-title="Add to pipeline"><img
+                          src="assets/images/icons/Icons-in-White-01.svg" alt="" width="48" class="h-100"> Add to
+                        pipeline
+                      </button>
+                    </div>
+                    <div class="col-12">
+                      <button type="button" name="button"
+                        class="btn btn-block btn-success rounded-0 rounded-bottom btn-social text-center text-white">Suggest
+                        Meeting<i class="fa fa-calendar float-left bg-success-2"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--/ Predefined Views -->
+              <div class="crm-tabbed-ccontent">                
+                <ul class="nav nav-pills nav-justified d-block d-sm-none" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link active text-truncate mb-25 mx-0" id="notes" data-toggle="tab" href="#notetab" role="tab"
+                      aria-controls="notetab" aria-selected="true">Make a note</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <div class="dropdown w-100">
+                      <button onclick="myDropDownBtnFunction()" class="dropbtn btn btn-outline-info btn-block mb-25 text-truncate">Set
+                        up a task <i class="fa fa-angle-down pull-right"></i></button>
+                      <div id="myDropdown" class="dropdown-content">
+                        <a href="#" data-toggle="modal" data-target="#large">Schedule a
+                          to do task</a>
+                        <a href="#">Schedule a follow up call</a>
+                        <a href="#">Schedule a future meeting</a>
+                        <a href="#">Schedule a future reminder</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link text-truncate mb-25 mx-0" data-toggle="tab" href="#allActivitytab" role="tab" aria-controls="allActivitytab"
+                      aria-selected="false">All
+                      Activity</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- The stats -->
+              <div class="row no-gutters">
+                <div class="col-12 text-center">
+                  <h4><b>The History</b></h4>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-content">
+                  <div class="card-body">
+                    <ul class="list-group text-capitalize">
+                      <li class="list-group-item no-border padding--25rem text-bold-600">
+                        <span class="float-right text-bold-400"></span>
+                        Next follow up date: xx/xx/xxxx
+                      </li>
+                      <li class="list-group-item no-border padding--25rem text-bold-600">
+                        <span class="float-right text-bold-400"></span>
+                        Last follow up date: xx/xx/xxxx
+                      </li>
+                      <li class="list-group-item no-border padding--25rem text-bold-600">
+                        <span class="float-right text-bold-400"></span>
+                        Last message date: xx/xx/xxxx
+                      </li>
+                      <li class="list-group-item no-border padding--25rem text-bold-600">
+                        <span class="float-right text-bold-400"></span>
+                        Me at: (Name of event) on xx/xx/xxxx
+                      </li>
+                      <li class="list-group-item no-border padding--25rem text-bold-600">
+                        <span class="float-right text-bold-400"></span>
+                        Biz Dev Contact Added: xx/xx/xxxx
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!--/ The stats -->
+
+            </div>
+          </div>
+        </div>
+        <div class="content-detached content-right">
+          <div class="content-body">
+            <div class="content-overlay"></div>
+
+            <section class="row all-contacts">
+              <div class="col-12">
+                <div class="card">
+                  <div class="card-head d-none d-sm-flex">
+                    <div class="card-header d-flex align-items-center justify-content-end">
+                      <h4 class="card-title text-bold-600">1st Name, Last Name) Active
+                        on GIN (xx) days
+                        ago</h4>
+                      <span><a href="#" class="btn btn-sm btn-outline-secondary ml-1">Delete
+                          Contact</a></span>
+                    </div>
+                  </div>
+                  <hr class="m-0">
+                  <div class="card-content">
+                    <div class="card-body crm-tabbed-ccontent">
+                      <!-- Notes Section -->
+                      <ul class="nav nav-pills nav-justified d-none d-sm-flex" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active text-truncate" id="notes" data-toggle="tab" href="#notetab"
+                            role="tab" aria-controls="notetab" aria-selected="true">Make a note</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <div class="dropdown w-100">
+                            <button onclick="myDropDownBtnFunction()"
+                              class="dropbtn btn btn-outline-info btn-block mb-25 text-truncate">Set
+                              up a task <i class="fa fa-angle-down pull-right"></i></button>
+                            <div id="myDropdown" class="dropdown-content">
+                              <a href="#" data-toggle="modal" data-target="#large">Schedule a
+                                to do task</a>
+                              <a href="#">Schedule a follow up call</a>
+                              <a href="#">Schedule a future meeting</a>
+                              <a href="#">Schedule a future reminder</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link text-truncate" data-toggle="tab" href="#allActivitytab" role="tab"
+                            aria-controls="allActivitytab" aria-selected="false">All
+                            Activity</a>
+                        </li>
+                      </ul>
+
+
+
+                      <!--/. Tab Content -->
+                      <div class="tab-content" id="myTabContent">
+                        <!-- Notes Section -->
+                        <div class="col-sm-12 tab-pane fade show active" id="notetab" role="tabpanel"
+                          aria-labelledby="notes">
+                          <!-- Log note -->
+                          <div class="card shadow-none">
+                            <div class="catd-body">
+                              <div class="card bg-light">
+                                <div class="card-content">
+                                  <div class="card-body">
+                                    <div class="media-list">
+                                      <div class="media">
+                                        <a class="media-left d-none d-sm-block" href="#">
+                                          <img src="assets/images/portrait/small/avatar-s-4.png" class="rounded-circle"
+                                            alt="Generic placeholder image" height="64" width="64">
+                                        </a>
+                                        <div class="media-body">
+                                          <form class="" action="#" method="post">
+                                            <fieldset class="form-group">
+                                              <textarea class="form-control" id="basicTextarea" rows="3"
+                                                spellcheck="false"></textarea>
+                                            </fieldset>
+                                            <button type="button"
+                                              class="btn bg-success-2 text-white btn-min-width">LOG</button>
+                                          </form>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card bg-light">
+                                <div class="card-content">
+                                  <div class="card-body">
+                                    <div class="media-list">
+                                      <div class="media p-0">
+                                        <a class="media-left" href="#">
+                                          <img src="assets/images/portrait/small/avatar-s-4.png" class="rounded-circle"
+                                            alt="Generic placeholder image" height="64" width="64">
+                                        </a>
+                                        <div class="media-body">
+                                          <h4>Note by Ben</h4>
+                                          Created on xx/xx/xxxx
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!--/. Notes Section -->
+                        <!-- Tasks Section -->
+                        <div class="col-sm-12 tab-pane fade" id="taskstab" role="tabpanel" aria-labelledby="tasks">
+                          <div class="card shadow-none">
+                            <div class="catd-body">
+                              <h6 class="header-title text-center mt-25 text-bold-600">To
+                                do tasks for (1st Name
+                                Last Name)</h6>
+                              <div class="table-responsive">
+                                <table id="" class="table table-hover table-xl table-bordered mb-0">
+                                  <thead>
+                                    <tr>
+                                      <th class="sorting">To Do Type</th>
+                                      <th class="sorting">Due Date</th>
+                                      <th class="sorting">To Do Title</th>
+                                      <th class="sorting">To Do Description</th>
+                                      <th class="sorting">Created On</th>
+                                      <th class="sorting">To Do Result</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td class="text-truncate">To Do Task</td>
+                                      <td class="text-truncate">xx/xx/xxxx</td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate px-25">
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
+                                      </td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate px-25">
+                                        <div class="form-group w-100">
+                                          <select name="" id="" class="form-control">
+                                            <option value="Not Completed">
+                                              Not Completed</option>
+                                            <option value="Completed">
+                                              Completed</option>
+                                          </select>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">Follow up call
+                                      </td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate px-25">
+                                        <button class="btn btn-secondary btn-block disabled">
+                                          No Description
+                                        </button>
+                                      </td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate px-25">
+                                        <div class="form-group w-100">
+                                          <select name="" id="" class="form-control">
+                                            <option value="Not Completed">
+                                              Not Completed</option>
+                                            <option value="Completed">
+                                              Completed</option>
+                                          </select>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">Set up a meeting
+                                      </td>
+                                      <td class="text-truncate">xx/xx/xxxx</td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate px-25">
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
+                                      </td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate px-25">
+                                        <div class="form-group w-100">
+                                          <select name="" id="" class="form-control">
+                                            <option value="Not Completed">
+                                              Not Completed</option>
+                                            <option value="Completed">
+                                              Completed</option>
+                                          </select>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!--/. Tasks Section -->
+                        <!-- Deals Section -->
+                        <div class="col-sm-12 tab-pane fade" id="dealstab" role="tabpanel" aria-labelledby="deals">
+                          <!-- Write Post -->
+                          <div class="card shadow-none">
+                            <div class="catd-body">
+                              <div class="table-responsive">
+                                <table id="recent-orders"
+                                  class="table table-striped table-bordered alt-pagination dataTable mb-0 ">
+                                  <thead>
+                                    <tr>
+                                      <th class="sorting">Created on</th>
+                                      <th class="sorting">Opportunity</th>
+                                      <th class="sorting">Customer Name</th>
+                                      <th class="sorting">Country</th>
+                                      <th class="sorting">Next Activity Deadline
+                                      </th>
+                                      <th class="sorting">Next Summary Deadline
+                                      </th>
+                                      <th class="sorting">Stage</th>
+                                      <th class="sorting">Expected Revenue</th>
+                                      <th class="sorting">Probability</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td class="text-truncate">
+                                        01/15/2020<br>12:02:56</td>
+                                      <td class="text-truncate"><a href="#" class="text-danger">Big Five
+                                          Breweries Beer
+                                          Club</a></td>
+                                      <td class="text-truncate">Big Five Breweries
+                                        Beer Ltd</td>
+                                      <td class="text-truncate">Uganda</td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate">Qualified</td>
+                                      <td class="text-truncate">0.00</td>
+                                      <td class="text-truncate">0.00</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">
+                                        01/15/2020<br>12:02:56</td>
+                                      <td class="text-truncate"><a href="#" class="text-danger">Big Five
+                                          Breweries Beer
+                                          Club</a></td>
+                                      <td class="text-truncate">Big Five Breweries
+                                        Beer Ltd</td>
+                                      <td class="text-truncate">Uganda</td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate">Qualified</td>
+                                      <td class="text-truncate">0.00</td>
+                                      <td class="text-truncate">0.00</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">
+                                        01/15/2020<br>12:02:56</td>
+                                      <td class="text-truncate"><a href="#" class="text-danger">Big Five
+                                          Breweries Beer
+                                          Club</a></td>
+                                      <td class="text-truncate">Big Five Breweries
+                                        Beer Ltd</td>
+                                      <td class="text-truncate">Uganda</td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate">Qualified</td>
+                                      <td class="text-truncate">0.00</td>
+                                      <td class="text-truncate">0.00</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">
+                                        01/15/2020<br>12:02:56</td>
+                                      <td class="text-truncate"><a href="#" class="text-danger">Big Five
+                                          Breweries Beer
+                                          Club</a></td>
+                                      <td class="text-truncate">Big Five Breweries
+                                        Beer Ltd</td>
+                                      <td class="text-truncate">Uganda</td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate">Qualified</td>
+                                      <td class="text-truncate">0.00</td>
+                                      <td class="text-truncate">0.00</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">
+                                        01/15/2020<br>12:02:56</td>
+                                      <td class="text-truncate"><a href="#" class="text-danger">Big Five
+                                          Breweries Beer
+                                          Club</a></td>
+                                      <td class="text-truncate">Big Five Breweries
+                                        Beer Ltd</td>
+                                      <td class="text-truncate">Uganda</td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate">Qualified</td>
+                                      <td class="text-truncate">0.00</td>
+                                      <td class="text-truncate">0.00</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">
+                                        01/15/2020<br>12:02:56</td>
+                                      <td class="text-truncate"><a href="#" class="text-danger">Big Five
+                                          Breweries Beer
+                                          Club</a></td>
+                                      <td class="text-truncate">Big Five Breweries
+                                        Beer Ltd</td>
+                                      <td class="text-truncate">Uganda</td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate">Qualified</td>
+                                      <td class="text-truncate">0.00</td>
+                                      <td class="text-truncate">0.00</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">
+                                        01/15/2020<br>12:02:56</td>
+                                      <td class="text-truncate"><a href="#" class="text-danger">Big Five
+                                          Breweries Beer
+                                          Club</a></td>
+                                      <td class="text-truncate">Big Five Breweries
+                                        Beer Ltd</td>
+                                      <td class="text-truncate">Uganda</td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate">Qualified</td>
+                                      <td class="text-truncate">0.00</td>
+                                      <td class="text-truncate">0.00</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">
+                                        01/15/2020<br>12:02:56</td>
+                                      <td class="text-truncate"><a href="#" class="text-danger">Big Five
+                                          Breweries Beer
+                                          Club</a></td>
+                                      <td class="text-truncate">Big Five Breweries
+                                        Beer Ltd</td>
+                                      <td class="text-truncate">Uganda</td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate">Qualified</td>
+                                      <td class="text-truncate">0.00</td>
+                                      <td class="text-truncate">0.00</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">
+                                        01/15/2020<br>12:02:56</td>
+                                      <td class="text-truncate"><a href="#" class="text-danger">Big Five
+                                          Breweries Beer
+                                          Club</a></td>
+                                      <td class="text-truncate">Big Five Breweries
+                                        Beer Ltd</td>
+                                      <td class="text-truncate">Uganda</td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate">Qualified</td>
+                                      <td class="text-truncate">0.00</td>
+                                      <td class="text-truncate">0.00</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">
+                                        01/15/2020<br>12:02:56</td>
+                                      <td class="text-truncate"><a href="#" class="text-danger">Big Five
+                                          Breweries Beer
+                                          Club</a></td>
+                                      <td class="text-truncate">Big Five Breweries
+                                        Beer Ltd</td>
+                                      <td class="text-truncate">Uganda</td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate">Qualified</td>
+                                      <td class="text-truncate">0.00</td>
+                                      <td class="text-truncate">0.00</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!--/. Deals Section -->
+                        <!-- reports Section -->
+                        <div class="col-sm-12 tab-pane fade" id="reportstab" role="tabpanel" aria-labelledby="reports">
+                          <!-- Write Post -->
+                          <div class="card shadow-none">
+                            <div class="catd-body">
+                              <h6 class="header-title text-center mt-25 text-bold-600">To
+                                do tasks report for (1st Name
+                                Last Name)</h6>
+                              <div class="table-responsive">
+                                <table id="" class="table table-hover table-xl table-bordered mb-0">
+                                  <thead>
+                                    <tr>
+                                      <th class="sorting">To Do Type</th>
+                                      <th class="sorting">Due Date</th>
+                                      <th class="sorting">To Do Title</th>
+                                      <th class="sorting">To Do Description</th>
+                                      <th class="sorting">Created On</th>
+                                      <th class="sorting">To Do Result</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td class="text-truncate">To Do Task</td>
+                                      <td class="text-truncate">xx/xx/xxxx</td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate px-25">
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
+                                      </td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate px-25">
+                                        <div class="form-group w-100">
+                                          <select name="" id="" class="form-control">
+                                            <option value="Not Completed">
+                                              Not Completed</option>
+                                            <option value="Completed">
+                                              Completed</option>
+                                          </select>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">Follow up call
+                                      </td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate px-25">
+                                        <button class="btn btn-secondary btn-block disabled">
+                                          No Description
+                                        </button>
+                                      </td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate px-25">
+                                        <div class="form-group w-100">
+                                          <select name="" id="" class="form-control">
+                                            <option value="Not Completed">
+                                              Not Completed</option>
+                                            <option value="Completed">
+                                              Completed</option>
+                                          </select>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">Set up a meeting
+                                      </td>
+                                      <td class="text-truncate">xx/xx/xxxx</td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate px-25">
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
+                                      </td>
+                                      <td class="text-truncate"></td>
+                                      <td class="text-truncate px-25">
+                                        <div class="form-group w-100">
+                                          <select name="" id="" class="form-control">
+                                            <option value="Not Completed">
+                                              Not Completed</option>
+                                            <option value="Completed">
+                                              Completed</option>
+                                          </select>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!--/. reports Section -->
+                        <!-- all activity Section -->
+                        <div class="col-sm-12 tab-pane fade" id="allActivitytab" role="tabpanel"
+                          aria-labelledby="reports">
+                          <!-- Write Post -->
+                          <div class="card shadow-none">
+                            <div class="catd-body">
+                              <h6 class="header-title text-center mt-25 text-bold-600">All
+                                task activity for (1st Name
+                                Last Name)</h6>
+                              <div class="table-responsive">
+                                <table id="" class="table table-hover table-xl table-bordered mb-0">
+                                  <thead>
+                                    <tr>
+                                      <th class="sorting">Created Date</th>
+                                      <th class="sorting">To Do Task</th>
+                                      <th class="sorting">To Do Title</th>
+                                      <th class="sorting">To Do Description</th>
+                                      <th class="sorting">To Do Result</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td class="text-truncate">xx/xx/xxxx</td>
+                                      <td class="text-truncate"><a href="#" class="text-dark">Follow up task</a>
+                                      </td>
+                                      <td class="text-truncate">Follow up task
+                                      </td>
+                                      <td class="text-truncate">Lorem ipsum, dolor
+                                        sit amet consectetur adipisicing
+                                        elit. Impedit alias dolore
+                                        necessitatibus. Ex possimus tempore
+                                        distinctio
+                                        praesentium officiis? Impedit aliquid ea
+                                        odio reprehenderit ullam. Facere
+                                        temporibus minima distinctio maiores
+                                        accusantium.</td>
+                                        <td class="text-truncate px-25">
+                                          <div class="form-group w-100">
+                                            <select name="" id="" class="form-control">
+                                              <option value="Not Completed">Not Completed</option>
+                                              <option value="Completed">Completed</option>
+                                            </select>
+                                          </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">xx/xx/xxxx</td>
+                                      <td class="text-truncate"><a href="#" class="text-dark">Follow up task</a>
+                                      </td>
+                                      <td class="text-truncate">Follow up task
+                                      </td>
+                                      <td class="text-truncate">Lorem ipsum, dolor
+                                        sit amet consectetur adipisicing
+                                        elit. Impedit alias dolore
+                                        necessitatibus. Ex possimus tempore
+                                        distinctio
+                                        praesentium officiis? Impedit aliquid ea
+                                        odio reprehenderit ullam. Facere
+                                        temporibus minima distinctio maiores
+                                        accusantium.</td>
+                                        <td class="text-truncate px-25">
+                                          <div class="form-group w-100">
+                                            <select name="" id="" class="form-control">
+                                              <option value="Not Completed">Not Completed</option>
+                                              <option value="Completed">Completed</option>
+                                            </select>
+                                          </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">xx/xx/xxxx</td>
+                                      <td class="text-truncate"><a href="#" class="text-dark">Follow up task</a>
+                                      </td>
+                                      <td class="text-truncate">Follow up task
+                                      </td>
+                                      <td class="text-truncate">Lorem ipsum, dolor
+                                        sit amet consectetur adipisicing
+                                        elit. Impedit alias dolore
+                                        necessitatibus. Ex possimus tempore
+                                        distinctio
+                                        praesentium officiis? Impedit aliquid ea
+                                        odio reprehenderit ullam. Facere
+                                        temporibus minima distinctio maiores
+                                        accusantium.</td>
+                                        <td class="text-truncate px-25">
+                                          <div class="form-group w-100">
+                                            <select name="" id="" class="form-control">
+                                              <option value="Not Completed">Not Completed</option>
+                                              <option value="Completed">Completed</option>
+                                            </select>
+                                          </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">xx/xx/xxxx</td>
+                                      <td class="text-truncate"><a href="#" class="text-dark">Follow up task</a>
+                                      </td>
+                                      <td class="text-truncate">Follow up task
+                                      </td>
+                                      <td class="text-truncate">Lorem ipsum, dolor
+                                        sit amet consectetur adipisicing
+                                        elit. Impedit alias dolore
+                                        necessitatibus. Ex possimus tempore
+                                        distinctio
+                                        praesentium officiis? Impedit aliquid ea
+                                        odio reprehenderit ullam. Facere
+                                        temporibus minima distinctio maiores
+                                        accusantium.</td>
+                                        <td class="text-truncate px-25">
+                                          <div class="form-group w-100">
+                                            <select name="" id="" class="form-control">
+                                              <option value="Not Completed">Not Completed</option>
+                                              <option value="Completed">Completed</option>
+                                            </select>
+                                          </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">xx/xx/xxxx</td>
+                                      <td class="text-truncate"><a href="#" class="text-dark">Follow up task</a>
+                                      </td>
+                                      <td class="text-truncate">Follow up task
+                                      </td>
+                                      <td class="text-truncate">Lorem ipsum, dolor
+                                        sit amet consectetur adipisicing
+                                        elit. Impedit alias dolore
+                                        necessitatibus. Ex possimus tempore
+                                        distinctio
+                                        praesentium officiis? Impedit aliquid ea
+                                        odio reprehenderit ullam. Facere
+                                        temporibus minima distinctio maiores
+                                        accusantium.</td>
+                                        <td class="text-truncate px-25">
+                                          <div class="form-group w-100">
+                                            <select name="" id="" class="form-control">
+                                              <option value="Not Completed">Not Completed</option>
+                                              <option value="Completed">Completed</option>
+                                            </select>
+                                          </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                      <td class="text-truncate">xx/xx/xxxx</td>
+                                      <td class="text-truncate"><a href="#" class="text-dark">Follow up task</a>
+                                      </td>
+                                      <td class="text-truncate">Follow up task
+                                      </td>
+                                      <td class="text-truncate">Lorem ipsum, dolor
+                                        sit amet consectetur adipisicing
+                                        elit. Impedit alias dolore
+                                        necessitatibus. Ex possimus tempore
+                                        distinctio
+                                        praesentium officiis? Impedit aliquid ea
+                                        odio reprehenderit ullam. Facere
+                                        temporibus minima distinctio maiores
+                                        accusantium.</td>
+                                        <td class="text-truncate px-25">
+                                          <div class="form-group w-100">
+                                            <select name="" id="" class="form-control">
+                                              <option value="Not Completed">Not Completed</option>
+                                              <option value="Completed">Completed</option>
+                                            </select>
+                                          </div>
+                                        </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!--/. all activity Section -->
+                        <!-- reports Section -->
+                        <div class="col-sm-12 tab-pane fade" id="messagesxxtab" role="tabpanel"
+                          aria-labelledby="messagesxx">
+                          <!-- Write Post -->
+                          <div class="card shadow-none">
+                            <div class="catd-body">
+                              <div class="chat-application container center-layout mt-2 mb-1">
+                                <div class="sidebar-left">
+                                  <div class="sidebar">
+                                    <!-- app chat user profile left sidebar start -->
+                                    <div class="chat-user-profile crm-user-chat-profile">
+                                      <header class="chat-user-profile-header text-center border-bottom">
+                                        <span class="chat-profile-close">
+                                          <i class="fa fa-times"></i>
+                                        </span>
+                                        <div class="my-2">
+
+                                          <img src="assets/images/portrait/small/avatar-s-11.png" class="round mb-1"
+                                            alt="user_avatar" height="100" width="100">
+
+                                          <h5 class="mb-0">John Doe</h5>
+                                          <span>Designer</span>
+                                        </div>
+                                      </header>
+                                      <div class="chat-user-profile-content">
+                                        <div class="chat-user-profile-scroll" style="overflow: scroll;">
+                                          <h6 class="text-uppercase mb-1">
+                                            ABOUT</h6>
+                                          <p class="mb-2">It is a long
+                                            established fact that a reader
+                                            will be distracted
+                                            by the
+                                            readable content .</p>
+                                          <h6>PERSONAL INFORAMTION</h6>
+                                          <ul class="list-unstyled mb-2">
+                                            <li class="mb-25">
+                                              email@gmail.com</li>
+                                            <li>+1(789) 950 -7654</li>
+                                          </ul>
+                                          <h6 class="text-uppercase mb-1">
+                                            CHANNELS</h6>
+                                          <ul class="list-unstyled mb-2">
+                                            <li><a href="javascript:void(0);">#
+                                                Devlopers</a></li>
+                                            <li><a href="javascript:void(0);">#
+                                                Designers</a></li>
+                                          </ul>
+                                          <h6 class="text-uppercase mb-1">
+                                            SETTINGS</h6>
+                                          <ul class="list-unstyled">
+                                            <li class="mb-50 "><a href="javascript:void(0);"
+                                                class="d-flex align-items-center"><i class="fa fa-tag mr-50"></i>
+                                                Add
+                                                Tag</a></li>
+                                            <li class="mb-50 "><a href="javascript:void(0);"
+                                                class="d-flex align-items-center"><i class="fa fa-star-o mr-50"></i>
+                                                Important Contact</a>
+                                            </li>
+                                            <li class="mb-50 "><a href="javascript:void(0);"
+                                                class="d-flex align-items-center"><i class="fa fa-image mr-50"></i>
+                                                Shared
+                                                Documents</a></li>
+                                            <li class="mb-50 "><a href="javascript:void(0);"
+                                                class="d-flex align-items-center"><i class="fa fa-trash-o mr-50"></i>
+                                                Deleted
+                                                Documents</a></li>
+                                            <li><a href="javascript:void(0);" class="d-flex align-items-center"><i
+                                                  class="fa fa-window-close-o mr-50"></i>
+                                                Blocked
+                                                Contact</a></li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- app chat user profile left sidebar ends -->
+                                    <!-- app chat sidebar start -->
+                                    <div class="chat-sidebar card">
+                                      <span class="chat-sidebar-close">
+                                        <i class="fa fa-times-rectangle-o"></i>
+                                      </span>
+                                      <div class="chat-sidebar-search">
+                                        <div class="d-flex align-items-center">
+                                          <div class="chat-sidebar-profile-toggle">
+                                            <div class="avatar">
+                                              <img src="assets/images/portrait/small/avatar-s-11.png"
+                                                class="cursor-pointer" alt="user_avatar" height="36" width="36">
+                                            </div>
+                                          </div>
+                                          <fieldset class="form-group position-relative has-icon-left mx-75 mb-0">
+                                            <input type="text" class="form-control round" id="chat-search"
+                                              placeholder="Search">
+                                            <div class="form-control-position">
+                                              <i class="fa fa-search text-dark"></i>
+                                            </div>
+                                          </fieldset>
+                                        </div>
+                                      </div>
+                                      <div class="chat-sidebar-list-wrapper pt-2" style="overflow: scroll;">
+                                        <h6 class="px-2 pb-25 mb-0">CHANNELS<i
+                                            class="fa fa-plus float-right cursor-pointer"></i>
+                                        </h6>
+                                        <ul class="chat-sidebar-list">
+                                          <li>
+                                            <h6 class="mb-0"># Devlopers
+                                            </h6>
+                                          </li>
+                                          <li>
+                                            <h6 class="mb-0"># Designers
+                                            </h6>
+                                          </li>
+                                        </ul>
+                                        <h6 class="px-2 pt-2 pb-25 mb-0">CHATS
+                                        </h6>
+                                        <ul class="chat-sidebar-list">
+                                          <li>
+                                            <div class="d-flex align-items-center">
+                                              <div class="avatar m-0 mr-50">
+                                                <img src="assets/images/portrait/small/avatar-s-26.png" height="36"
+                                                  width="36" alt="sidebar user image">
+                                                <span class="avatar-status-busy"></span>
+                                              </div>
+                                              <div class="chat-sidebar-name">
+                                                <h6 class="mb-0">Jane
+                                                  Doe</h6><span class="text-muted">Jansec
+                                                  Inc</span>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="d-flex align-items-center">
+                                              <div class="avatar m-0 mr-50">
+                                                <img src="assets/images/portrait/small/avatar-s-7.png" height="36"
+                                                  width="36" alt="sidebar user image">
+                                                <span class="avatar-status-online"></span>
+                                              </div>
+                                              <div class="chat-sidebar-name">
+                                                <h6 class="mb-0">John
+                                                  Doe</h6><span class="text-muted">ABC
+                                                  Corp</span>
+                                              </div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                        <h6 class="px-2 pt-2 pb-25 mb-0">
+                                          CONTACTS<i class="fa fa-plus float-right cursor-pointer"></i>
+                                        </h6>
+                                        <ul class="chat-sidebar-list">
+                                          <li>
+                                            <div class="d-flex align-items-center">
+                                              <div class="avatar m-0 mr-50">
+                                                <img src="assets/images/portrait/small/avatar-s-8.png" height="36"
+                                                  width="36" alt="sidebar user image">
+                                                <span class="avatar-status-away"></span>
+                                              </div>
+                                              <div class="chat-sidebar-name">
+                                                <h6 class="mb-0">Jane
+                                                  Doe</h6><span class="text-muted">Abraz
+                                                  Limited</span>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="d-flex align-items-center">
+                                              <div class="avatar bg-info m-0 mr-50">
+                                                <span class="avatar-content">JD</span>
+                                                <span class="avatar-status-offline"></span>
+                                              </div>
+                                              <div class="chat-sidebar-name">
+                                                <h6 class="mb-0">Jane
+                                                  Doe</h6><span class="text-muted">JD
+                                                  Game
+                                                  Studios</span>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="d-flex align-items-center">
+                                              <div class="avatar m-0 mr-50">
+                                                <img src="assets/images/portrait/small/avatar-s-5.png" height="36"
+                                                  width="36" alt="sidebar user image">
+                                                <span class="avatar-status-online"></span>
+                                              </div>
+                                              <div class="chat-sidebar-name">
+                                                <h6 class="mb-0">John
+                                                  Doe</h6><span class="text-muted">Appraisal
+                                                  Studios</span>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="d-flex align-items-center">
+                                              <div class="avatar m-0 mr-50">
+                                                <img src="assets/images/portrait/small/avatar-s-9.png" height="36"
+                                                  width="36" alt="sidebar user image">
+                                                <span class="avatar-status-busy"></span>
+                                              </div>
+                                              <div class="chat-sidebar-name">
+                                                <h6 class="mb-0">John
+                                                  Doe</h6><span class="text-muted">FFF
+                                                  Industries</span>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="d-flex align-items-center">
+                                              <div class="avatar m-0 mr-50 bg-success-2">
+                                                <span class="avatar-content">JD</span>
+                                                <span class="avatar-status-offline"></span>
+                                              </div>
+                                              <div class="chat-sidebar-name">
+                                                <h6 class="mb-0">John
+                                                  Doe</h6><span class="text-muted">Games
+                                                  Nature</span>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="d-flex align-items-center">
+                                              <div class="avatar m-0 mr-50">
+                                                <img src="assets/images/portrait/small/avatar-s-14.png" height="36"
+                                                  width="36" alt="sidebar user image">
+                                                <span class="avatar-status-online"></span>
+                                              </div>
+                                              <div class="chat-sidebar-name">
+                                                <h6 class="mb-0">Jane
+                                                  Doe</h6><span class="text-muted">Jupter
+                                                  Corp</span>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="d-flex align-items-center">
+                                              <div class="avatar m-0 mr-50">
+                                                <img src="assets/images/portrait/small/avatar-s-3.png" height="36"
+                                                  width="36" alt="sidebar user image">
+                                                <span class="avatar-status-offline"></span>
+                                              </div>
+                                              <div class="chat-sidebar-name">
+                                                <h6 class="mb-0">John
+                                                  Doe</h6><span class="text-muted">Techsat
+                                                  Studios</span>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="d-flex align-items-center">
+                                              <div class="avatar m-0 mr-50">
+                                                <img src="assets/images/portrait/small/avatar-s-7.png" height="36"
+                                                  width="36" alt="sidebar user image">
+                                                <span class="avatar-status-online"></span>
+                                              </div>
+                                              <div class="chat-sidebar-name">
+                                                <h6 class="mb-0">Jane
+                                                  Doe</h6><span class="text-muted">Combart
+                                                  Solutions</span>
+                                              </div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                    <!-- app chat sidebar ends -->
+
+                                  </div>
+                                </div>
+                                <div class="content-right">
+                                  <div class="content-overlay"></div>
+                                  <div class="content-wrapper">
+                                    <div class="content-header row">
+                                    </div>
+                                    <div class="content-body ml-0">
+                                      <!-- app chat overlay -->
+                                      <div class="chat-overlay"></div>
+                                      <!-- app chat window start -->
+                                      <section class="chat-window-wrapper">
+                                        <div class="chat-start">
+                                          <span
+                                            class="fa fa-envelope-o chat-sidebar-toggle chat-start-icon font-large-3 p-3 mb-1"></span>
+                                          <h4 class="d-none d-lg-block py-50 text-bold-500">
+                                            Select a contact to start a
+                                            chat!</h4>
+                                          <button
+                                            class="btn btn-light-primary chat-start-text chat-sidebar-toggle d-block d-lg-none py-50 px-1">Start
+                                            Conversation!</button>
+                                        </div>
+                                        <div class="chat-area d-none">
+                                          <div class="chat-header">
+                                            <header
+                                              class="d-flex justify-content-between align-items-center px-1 py-75">
+                                              <div class="d-flex align-items-center">
+                                                <div class="chat-sidebar-toggle d-block d-lg-none mr-1">
+                                                  <i class="fa fa-align-justify font-large-1 cursor-pointer"></i>
+                                                </div>
+                                                <div class="avatar chat-profile-toggle m-0 mr-1">
+                                                  <img src="assets/images/portrait/small/avatar-s-26.png"
+                                                    class="cursor-pointer" alt="avatar" height="36" width="36">
+                                                  <span class="avatar-status-busy"></span>
+                                                </div>
+                                                <h6 class="mb-0">
+                                                  Elizabeth Elliott
+                                                </h6>
+                                              </div>
+                                              <div class="chat-header-icons">
+                                                <span class="chat-icon-favorite">
+                                                  <i class="fa fa-star-o font-medium-5 cursor-pointer"></i>
+                                                </span>
+                                                <span class="dropdown">
+                                                  <i class="fa fa-ellipsis-v font-medium-4 ml-25 cursor-pointer dropdown-toggle nav-hide-arrow cursor-pointer"
+                                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false" role="menu">
+                                                  </i>
+                                                  <span class="dropdown-menu dropdown-menu-right"
+                                                    aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="JavaScript:void(0);"><i
+                                                        class="fa fa-tag mr-25"></i>
+                                                      Pin to
+                                                      top</a>
+                                                    <a class="dropdown-item" href="JavaScript:void(0);"><i
+                                                        class="fa fa-trash-o mr-25"></i>
+                                                      Delete
+                                                      chat</a>
+                                                    <a class="dropdown-item" href="JavaScript:void(0);"><i
+                                                        class="fa fa-window-close-o mr-25"></i>
+                                                      Block</a>
+                                                  </span>
+                                                </span>
+                                              </div>
+                                            </header>
+                                          </div>
+                                          <!-- chat card start -->
+                                          <div class="card chat-wrapper shadow-none mb-0">
+                                            <div class="card-content">
+                                              <div class="card-body chat-container" style="overflow: scroll;">
+                                                <div class="chat-content">
+                                                  <div class="chat">
+                                                    <div class="chat-avatar">
+                                                      <a class="avatar m-0">
+                                                        <img src="assets/images/portrait/small/avatar-s-11.png"
+                                                          alt="avatar" height="36" width="36">
+                                                      </a>
+                                                    </div>
+                                                    <div class="chat-body">
+                                                      <div class="chat-message">
+                                                        <p>How
+                                                          can
+                                                          we
+                                                          help?
+                                                          We're
+                                                          here
+                                                          for
+                                                          you!
+                                                          😄
+                                                        </p>
+                                                        <span class="chat-time">7:45
+                                                          AM</span>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="chat chat-left">
+                                                    <div class="chat-avatar">
+                                                      <a class="avatar m-0">
+                                                        <img src="assets/images/portrait/small/avatar-s-26.png"
+                                                          alt="avatar" height="36" width="36">
+                                                      </a>
+                                                    </div>
+                                                    <div class="chat-body">
+                                                      <div class="chat-message">
+                                                        <p>Hey
+                                                          John,
+                                                          I am
+                                                          looking
+                                                          for
+                                                          the
+                                                          best
+                                                          admin
+                                                          template.
+                                                        </p>
+                                                        <p>Could
+                                                          you
+                                                          please
+                                                          help
+                                                          me
+                                                          to
+                                                          find
+                                                          it
+                                                          out?
+                                                          🤔
+                                                        </p>
+                                                        <span class="chat-time">7:50
+                                                          AM</span>
+                                                      </div>
+                                                      <div class="chat-message">
+                                                        <p>It
+                                                          should
+                                                          be
+                                                          Bootstrap
+                                                          4 🤩
+                                                          compatible.
+                                                        </p>
+                                                        <span class="chat-time">7:58
+                                                          AM</span>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="badge badge-pill badge-light-secondary my-1">
+                                                    Yesterday
+                                                  </div>
+                                                  <div class="chat">
+                                                    <div class="chat-avatar">
+                                                      <a class="avatar m-0">
+                                                        <img src="assets/images/portrait/small/avatar-s-11.png"
+                                                          alt="avatar" height="36" width="36">
+                                                      </a>
+                                                    </div>
+                                                    <div class="chat-body">
+                                                      <div class="chat-message">
+                                                        <p>Absolutely!
+                                                        </p>
+                                                        <span class="chat-time">8:00
+                                                          AM</span>
+                                                      </div>
+                                                      <div class="chat-message">
+                                                        <p>modern
+                                                          admin
+                                                          is
+                                                          the
+                                                          responsive
+                                                          bootstrap
+                                                          4
+                                                          admin
+                                                          template.
+                                                        </p>
+                                                        <span class="chat-time">8:01
+                                                          AM</span>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="chat chat-left">
+                                                    <div class="chat-avatar">
+                                                      <a class="avatar m-0">
+                                                        <img src="assets/images/portrait/small/avatar-s-26.png"
+                                                          alt="avatar" height="36" width="36">
+                                                      </a>
+                                                    </div>
+                                                    <div class="chat-body">
+                                                      <div class="chat-message">
+                                                        <p>Looks
+                                                          clean
+                                                          and
+                                                          fresh
+                                                          UI.
+                                                          😃
+                                                        </p>
+                                                        <span class="chat-time">10:12
+                                                          AM</span>
+                                                      </div>
+                                                      <div class="chat-message">
+                                                        <p>It's
+                                                          perfect
+                                                          for
+                                                          my
+                                                          next
+                                                          project.
+                                                        </p>
+                                                        <span class="chat-time">10:15
+                                                          AM</span>
+                                                      </div>
+                                                      <div class="chat-message">
+                                                        <p>How
+                                                          can
+                                                          I
+                                                          purchase
+                                                          🤑
+                                                          it?
+                                                        </p>
+                                                        <span class="chat-time">10:18
+                                                          AM</span>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="chat">
+                                                    <div class="chat-avatar">
+                                                      <a class="avatar m-0">
+                                                        <img src="assets/images/portrait/small/avatar-s-11.png"
+                                                          alt="avatar" height="36" width="36">
+                                                      </a>
+                                                    </div>
+                                                    <div class="chat-body">
+                                                      <div class="chat-message">
+                                                        <p>Thanks
+                                                          🤝 ,
+                                                          from
+                                                          ThemeForest.
+                                                        </p>
+                                                        <span class="chat-time">10:20
+                                                          AM</span>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="chat chat-left">
+                                                    <div class="chat-avatar">
+                                                      <a class="avatar m-0">
+                                                        <img src="assets/images/portrait/small/avatar-s-26.png"
+                                                          alt="avatar" height="36" width="36">
+                                                      </a>
+                                                    </div>
+                                                    <div class="chat-body">
+                                                      <div class="chat-message">
+                                                        <p>I will
+                                                          purchase
+                                                          it
+                                                          for
+                                                          sure.
+                                                          👍
+                                                        </p>
+                                                        <span class="chat-time">3:32
+                                                          PM</span>
+                                                      </div>
+                                                      <div class="chat-message">
+                                                        <p>Thanks.
+                                                        </p>
+                                                        <span class="chat-time">3:33
+                                                          PM</span>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="chat">
+                                                    <div class="chat-avatar">
+                                                      <a class="avatar m-0">
+                                                        <img src="assets/images/portrait/small/avatar-s-11.png"
+                                                          alt="avatar" height="36" width="36">
+                                                      </a>
+                                                    </div>
+                                                    <div class="chat-body">
+                                                      <div class="chat-message">
+                                                        <p>Great,
+                                                          Feel
+                                                          free
+                                                          to
+                                                          get
+                                                          in
+                                                          touch
+                                                          on
+                                                        </p>
+                                                        <span class="chat-time">3:34
+                                                          AM</span>
+                                                      </div>
+                                                      <div class="chat-message">
+                                                        <p><a href="#">Global
+                                                            Games
+                                                            Industry
+                                                            Network</a>
+                                                        </p>
+                                                        <span class="chat-time">3:35
+                                                          AM</span>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="card-footer chat-footer px-2 py-1 pb-0">
+                                              <form class="d-flex align-items-center" onsubmit="chatMessagesSend();"
+                                                action="javascript:void(0);">
+                                                <i class="fa fa-user cursor-pointer"></i>
+                                                <i class="fa fa-paperclip ml-1 cursor-pointer"></i>
+                                                <input type="text" class="form-control chat-message-send mx-1"
+                                                  placeholder="Type your message here...">
+                                                <button type="submit" class="btn btn-primary glow send d-lg-flex"><i
+                                                    class="fa fa-envelope-o"></i>
+                                                  <span class="d-none d-lg-block mx-50">Send</span></button>
+                                              </form>
+                                            </div>
+                                          </div>
+                                          <!-- chat card ends -->
+                                        </div>
+                                      </section>
+                                      <!-- app chat window ends -->
+                                      <!-- app chat profile right sidebar start -->
+                                      <section class="chat-profile">
+                                        <header class="chat-profile-header text-center border-bottom">
+                                          <span class="chat-profile-close">
+                                            <i class="fa fa-times"></i>
+                                          </span>
+                                          <div class="my-2">
+
+                                            <img src="assets/images/portrait/small/avatar-s-26.png" class="round mb-1"
+                                              alt="chat avatar" height="100" width="100">
+
+                                            <h5 class="app-chat-user-name mb-0">
+                                              Jane Doe</h5>
+                                            <span>Devloper</span>
+                                          </div>
+                                        </header>
+                                        <div class="chat-profile-content p-2" style="overflow: scroll;">
+                                          <h6 class="mt-1">ABOUT</h6>
+                                          <p>It is a long established fact
+                                            that a reader will be distracted
+                                            by the
+                                            readable content.
+                                          </p>
+                                          <h6 class="mt-2">PERSONAL
+                                            INFORMATION</h6>
+                                          <ul class="list-unstyled">
+                                            <li class="mb-25">
+                                              johndoe@johndoe.com</li>
+                                            <li>+123 456 789</li>
+                                          </ul>
+                                        </div>
+                                      </section>
+                                      <!-- app chat profile right sidebar ends -->
+
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!--/. reports Section -->
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Schedule Activity Modal -->
+  <div class="modal fade text-left" id="taskDesc" tabindex="-1" role="dialog" aria-labelledby="taskDescButton"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-bottom-light">
+          <h4 class="modal-title" id="myModalLabel17">Task Description</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam accusamus fuga totam at, nobis
+          atque harum
+          rem a vel earum officiis cum error excepturi libero sapiente exercitationem. Consequatur, fugiat
+          nihil?
+
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam accusamus fuga totam at, nobis
+          atque harum
+          rem a vel earum officiis cum error excepturi libero sapiente exercitationem. Consequatur, fugiat
+          nihil?
+
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam accusamus fuga totam at, nobis
+          atque harum
+          rem a vel earum officiis cum error excepturi libero sapiente exercitationem. Consequatur, fugiat
+          nihil?
+        </div>
+        <div class="modal-footer border-top-light">
+          <button type="button" class="btn grey btn-outline-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Schedule Activity Modal -->
+  <div class="modal fade text-left" id="large" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-bottom-light">
+          <h4 class="modal-title" id="myModalLabel17">Schedule Activity</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="" method="post">
+            <div class="form-body">
+              <div class="row">
+                <div class="col-md">
+                  <div class="form-group row">
+                    <label class="col-md-3 label-control" for="activityType1">Activity Type:</label>
+                    <div class="col-md-9 mx-auto">
+                      <select id="activityType1" class="form-control">
+                        <option value="">Email</option>
+                        <option value="">Calls</option>
+                        <option value="">Meeting Invite</option>
+                        <option value="">Industry Intro Email</option>
+                        <option value="">To Do</option>
+                        <option value="">Upload Document</option>
+                        <option value="">Exception</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-md-3 label-control" for="summary1">Task Title:</label>
+                    <div class="col-md-9 mx-auto">
+                      <input type="text" id="summary1" class="form-control" placeholder="e.g. Discuss Proposal"
+                        name="summary1">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="form-group row">
+                    <label class="col-md-3 label-control" for="dueDate1">Due Date:</label>
+                    <div class="col-md-9 mx-auto">
+                      <input type="date" id="dueDate1" class="form-control" name="phone">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+          <fieldset class="form-group position-relative">
+            <div id="editor">
+              <p>Hello World!</p>
+              <p>Some initial <strong>bold</strong> text</p>
+              <p><br /></p>
+            </div>
+          </fieldset>
+        </div>
+        <div class="modal-footer border-top-light">
+          <button type="button" class="btn grey btn-outline-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-outline-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Added to Biz Dev modal-->
+  <div class="modal fade" id="addedToCRM" tabindex="-1" role="dialog" aria-labelledby="addedToCRMLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-bottom-light">
+          <h5 class="modal-title text-uppercase text-bold-600" id="addedToCRMLabel">Global Games Industry
+            network</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Successfully added to Biz Dev
+        </div>
+        <div class="modal-footer border-top-light">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Added to Biz Dev modal-->
+  <div class="modal fade" id="message" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-bottom-light">
+          <h5 class="modal-title text-uppercase text-bold-600">Global Games Industry network</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="form-row">
+              <div class="form-group w-100">
+                <textarea name="" id="" class="form-control" cols="30" rows="10">Enter your Message</textarea>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer border-top-light">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          <button type="button" class="btn bg-success-2 text-white" data-dismiss="modal">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END: Content-->
+
+  <footer class="h--200">
+    <div class="col-md-4 m-auto social-icon-section">
+      <div class="col-3 social-icon">
+        <a href="#"><i class="fa fa-facebook-square"></i></a>
+      </div>
+      <div class="col-3 social-icon">
+        <a href="#"><i class="fa fa-twitter-square"></i></a>
+      </div>
+      <div class="col-3 social-icon">
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+      </div>
+      <div class="col-3 social-icon">
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="abt-link-section">
+      <a href="#">IMPRINT / IMPRESSUM</a>
+    </div>
+    <div class="p-2">
+      &copy;2020 Games Industry Network
+    </div>
+  </footer>
+
+
+  <!-- BEGIN: Vendor JS-->
+  <script src="assets/js/vendors/js/vendors.min.js"></script>
+  <!-- BEGIN Vendor JS-->
+
+  <!-- BEGIN: Page Vendor JS-->
+  <script src="assets/js/vendors/js/ui/jquery.sticky.js"></script>
+  <script src="assets/js/vendors/js/dataTables.bootstrap.min.js"></script>
+  <script src="assets/js/vendors/js/contacts.min.js"></script>
+  <script src="assets/js/vendors/jquery.star-rating-svg.js"></script>
+  <script src="assets/js/ratings-callback.js"></script>
+
+  <!-- WYSIWYG -->
+  <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+  <script src="assets/js/vendors/js/vendors.min.js"></script>
+  <!-- BEGIN Vendor JS-->
+  <script src="assets/js/vendors/js/quill.min.js"></script>
+  <script src="assets/js/menu.js"></script>
+  <script src="assets/js/chat.js"></script>
+  <script src="assets/js/nav-toggler.js"></script>
+  <script>
+    var quill = new Quill("#editor", {
+      theme: "snow"
+    });
+  </script>
+  <!--END: WYSIWYG -->
+
+  <script type="text/javascript">
+    document.getElementById('profileUpload').addEventListener('click', openDialog);
+
+    function openDialog() {
+      document.getElementById('profile1').click();
+    }
+
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
+
+  <script>
+    /* When the user clicks on the button,
+                            toggle between hiding and showing the dropdown content */
+    function myDropDownBtnFunction() {
+      document.getElementById("myDropdown").classList.toggle("showBtn");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function (event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('showBtn')) {
+            openDropdown.classList.remove('showBtn');
+          }
+        }
+      }
+    }
+  </script>
+
+</body>
+<!-- END: Body-->
+
+
+</html>

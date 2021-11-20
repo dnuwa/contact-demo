@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!-- BEGIN: Head-->
+
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+  <title>Add Opportunities</title>
+
+  <!-- BEGIN: GIN CSS-->
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/gin-favicons/favicon-16x16.png">
+  <link rel="stylesheet" type="text/css" href="assets/css/forms/icheck/icheck.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/forms/icheck/custom.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/custom.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/colors.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/dropzone.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- END: GIN CSS-->
+
+  <!-- BEGIN: Custom CSS-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/star-rating-svg.css">
+  <!-- END: Custom CSS-->
+
+  <!-- Owl Carousel Assets -->
+  <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css">
+
+  <!-- BEGIN: Page JS-->
+  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+  <!-- END: Page JS-->
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="horizontal-layout horizontal-menu 2-columns " data-open="click" data-menu="horizontal-menu"
+  data-col="2-columns">
+
+  <!-- BEGIN: Header-->
+  <header id="headerNavbar">
+    <div class="container">
+      <nav class="navbar px-0">
+        <a class="navbar-brand" href="index.html">
+          <img class="brand-logo" alt="Global Games Industry Network Logo" src="assets/images/logo/logo.png">
+        </a>
+
+        <ul class="nav-list ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><img src="assets/images/home-generted-white.svg" alt=""
+                                class="nav-img-cons-white mb-50" width="30"><img
+                                src="assets/images/home-generted-black.svg" class="nav-img-cons-black mb-50" width="30"
+                                alt=""><br>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="database.html"><i class="fa fa-database"></i><br>Industry <br>
+              Database <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html"><img src="assets/images/icons/Icons-in-White-02.svg" alt=""
+                class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-02.svg"
+                class="nav-img-cons-black" width="48" alt="">
+              <br>Events/<br class="d-none d-lg-flex">Planning</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="networking.html"><img src="assets/images/icons/Icons-in-White-04.svg" alt=""
+                class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-04.svg"
+                class="nav-img-cons-black" width="48" alt=""><br>Industry <br>
+              Network<span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="marketplace.html"><img src="assets/images/icons/Icons-in-White-18.svg" alt=""
+                class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-03.svg"
+                class="nav-img-cons-black" width="48" alt=""><br>Marketplace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="crm-contacts.html"><i class="fa fa-address-card"></i><br>
+                            Biz Dev<br class="d-none d-lg-flex">
+                            Contacts <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="crm.html"><img src="assets/images/icons/Icons-in-White-01.svg" alt=""
+                class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-01.svg" width="48"
+                class="nav-img-cons-black" alt=""><br>Biz Dev<br class="d-none d-lg-flex">pipeline <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item d-block d-md-none">
+            <a class="nav-link" href=""><i class="fa fa-newspaper-o"></i><br>
+              Industry News <span class="text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item d-block d-md-none">
+            <a class="nav-link" href=""><i class="fa fa-file-text"></i><br>
+              News from our team <span class="text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item d-block d-md-none">
+            <a class="nav-link" href="profile.html"><i class="fa fa-user"></i><br>
+              My Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html"><i class="fa fa-tags"></i><br>
+              Pricing</a>
+          </li>
+          <li class="nav-item auth-link border-0">
+            <div class="dropdown pt-1">
+                                <a class="nav-link nav-item-wrapper dropdown-toggle bg-transparent" href="#" role="button"
+                                    id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="assets/images/portrait/small/avatar-s-1.png" class="round mr-50" width="40px" alt="user-avatar">
+                                    <p>Scott</p>
+                                </a>
+                            
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#"><i class="fa fa-user" aria-hidden="true"></i> Profile</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+                                </div>
+                            </div>
+          </li>
+        </ul>
+        <div class="menu-toggle">
+          <div class="hamburger">
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- END: Header-->
+
+  <!-- END: Main Menu-->
+  <!-- BEGIN: Content-->
+  <div class="app-content center-layout mt-2 mx-1">
+    <div class="content-overlay"></div>
+    <div class="container">
+      <div class="content-wrapper">
+        <div class="content-header row pt-2">
+          <div class="col-md"></div>
+          <div class="content-header-left col-md-8 mb-2 text-center">
+            <h3 class="content-header-title mb-0 text-uppercase text-bold-600">create marketplace listing</h3>
+            <!-- <h4 class="content-header-title mb-0 text-capitalize text-center text-bold-600">Join the network. it's free to signup.</h4> -->
+          </div>
+          <div class="col-md"></div>
+        </div>
+        <div class="content-body">
+
+          <div class="row mx-0">
+            <div class="col-12">
+              <p>To post on marketplace you must have a GIN Account. <a href="#">Create a free Account here
+                  1st</a></p>
+            </div>
+          </div>
+
+          <!-- create opportunity form  -->
+          <div class="row mx-0 no-gutters">
+            <div class="w-100">
+              <p class="text-center">Add marketplace oportunity title</p>
+            </div>
+          </div>
+          <div class="row mx-0">
+            <div class="col-12">
+              <div class="form-group">
+                <input type="text" class="form-control rounded-0"
+                  placeholder="Marketplace Opportunity Title cannot be more than two lines">
+              </div>
+            </div>
+          </div>
+          <div class="row mx-0">
+            <div class="col-6">
+              <div class="form-group">
+                <label for="">Main Category</label>
+                <select class="form-control bg-success-2 border-success" name="" id="" data-native-menu="false">
+                  <option value="">What We Offer - Select</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="form-group">
+                <label for="">Sub Category</label>
+                <select class="form-control bg-success-2 border-success" name="" id="" data-native-menu="false">
+                  <option value="">Territories - Select</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mx-0">
+            <div class="col-12">
+              <div class="form-group">
+                <label for="" class="text-center w-100">Opportunity Summary</label>
+                <textarea class="form-control" name="" id="" cols="30" rows="10">Opportunity summary</textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mx-0">
+            <div class="col-12">
+              <div class="form-group">
+                <label for="" class="text-center w-100">Add what you offer text below</label>
+                <textarea class="form-control" name="" id="" cols="30"
+                  rows="10">Add what you offer text. No more than XX lines</textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mx-0">
+            <div class="col-12">
+              <div class="form-group">
+                <label for="" class="text-center w-100">Add what you are looking for text below</label>
+                <textarea class="form-control" name="" id="" cols="30"
+                  rows="10">Add what you are looking for text. No more than XX lines</textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mx-0">
+            <div class="col-4">
+              <div class="form-group">
+                <label for="">Genres</label>
+                <select class="form-control" name="" id="" data-native-menu="false">
+                  <option value="">Genres - Select</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="form-group">
+                <label for="">Platforms</label>
+                <select class="form-control" name="" id="" data-native-menu="false">
+                  <option value="">Platforms - Select</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="form-group">
+                <label for="">Territories</label>
+                <select class="form-control" name="" id="" data-native-menu="false">
+                  <option value="">Territories - Select</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mx-0">
+            <div class="w-100">
+              <p class="text-center">Add up to four photos</p>
+            </div>
+
+            <div class="col-3">
+              <img src="https://via.placeholder.com/150" class="img-fluid w-100" alt="">
+            </div>
+
+            <div class="col-3">
+              <img src="https://via.placeholder.com/150" class="img-fluid w-100" alt="">
+            </div>
+
+            <div class="col-3">
+              <img src="https://via.placeholder.com/150" class="img-fluid w-100" alt="">
+            </div>
+
+            <div class="col-3">
+              <img src="https://via.placeholder.com/150" class="img-fluid w-100" alt="">
+            </div>
+          </div>
+
+          <div class="row mx-0 my-1">
+            <div class="col-6 mx-auto">
+              <img src="https://via.placeholder.com/150" class="img-fluid w-100" alt="">
+            </div>
+          </div>
+
+          <!-- <div class="row mx-0">
+            <div class="col-4">
+              <button class="btn btn-outline-secondary btn-block">Edit your logo</button>
+            </div>
+            <div class="col-4">
+              <button class="btn btn-outline-secondary btn-block">Add a photo</button>
+            </div>
+            <div class="col-4">
+              <button class="btn btn-outline-secondary btn-block">Add a video</button>
+            </div>
+          </div>
+          <hr class="create-opportunity-separator"> -->
+
+          <div class="row mb-1">
+            <div class="col-4">
+              <a href="" class="btn btn-danger btn-block">Cancel</a>
+            </div>
+            <div class="col-4">
+              <a href="" class="btn btn-block btn-openid">Save</a>
+            </div>
+            <div class="col-4">
+              <button class="btn bg-success-2 text-white btn-block" type="button" data-toggle="modal"
+                data-target="#marketplace_preview">Preview</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- END: Content-->
+
+  <!-- Marketplace tile preview Modal -->
+  <div class="modal fade" id="marketplace_preview" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-bottom-light">
+          <h5 class="modal-title text-uppercase text-bold-600 text-capitalize" id="exampleModalLongTitle">Preview your
+            marketplace tile post
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row no-gutters">
+            <div class="col-md-6 col-sm-12 mx-auto">
+              <div onclick="location.href='market-profile-page.html'"
+                class="card entry--opportunities border-market--place-30">
+                <div class="card-body p-0">
+                  <div class="entry--auth-data border-market--place-30 bg-marketplace-tile-green ">
+                    <div class="cont--entry-meta w-100">
+                      <div class="entry-meta-content text-center">
+                        <div class="entry-heading ellipsis-b py-1">
+                          <h4>(Main Category)</h4>
+                        </div>
+                        <div class="entry-heading ellipsis-b">
+                          <h4 class="mb-0 pb-25">(Marketplace Title)</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="entry--content w-100">
+                    <div class="tl-art-work">
+                      <img
+                        src="https://cached.imagescaler.hbpl.co.uk/resize/scaleHeight/815/cached.offlinehbpl.hbpl.co.uk/news/OMC/PlayStationsFestivalofPlay-20151126022928392.jpg"
+                        alt="">
+                    </div>
+                    <div class="entry-meta-content text-center">
+                      <div class="entry-heading ellipsis-b">
+                        <h4>(Opportunity Summary<br>text max. 2 lines)</h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <hr class="m-0 p-0 border-top-light">
+
+                  <div class="row no-gutters text-center justify-content-between mx-25">
+                    <img src="assets/images/logo/design-img-4.png" class="border--dark  my-25 rounded" width="50"
+                      height="50" alt="">
+                    <img src="assets/images/logo/speech-bubble.png" data-toggle="tooltip" data-placement="top"
+                      title="Message" data-original-title="Message" class="my-25" width="50" height="50" alt="">
+                    <img src="assets/images/logo/calendar.png" data-toggle="tooltip" data-placement="top"
+                      title="Suggest a meeting" data-original-title="Suggest a meeting" class="my-25" width="50"
+                      height="50" alt="">
+                  </div>
+
+                  <hr class="m-0 p-0 border-top-light">
+
+                  <div class="row no-gutters align-items-center justify-content-center">
+                    <div class="d-flex align-items-center">
+                      <img src="assets/images/portrait/small/avatar-s-2.png" class="border--dark mx-1 my-25 rounded"
+                        width="50" height="50" alt="">
+                      <div>
+                        <p class="mb-0">Posted by: xx/xx/xxxx
+                          <br>
+                          (1st, last name)
+                        </p>
+                        <p class="mb-0">(Tile), (Company)
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="form-group mb-25 mx-auto">
+                        <!-- Outline Button group -->
+                        <div class="btn-group btn-group-sm2" role="group" aria-label="Basic example">
+                          <img src="assets/images/logo/hand-shake.png" class="mr-50 my-25" width="40" height="40"
+                            alt="">
+                          <span class="font--30">(xx)</span>
+                        </div>
+                      </div>
+                      <div class="row nmarg no-gutters b-row">
+                        <div class="form-group pl-50 mb-25 mx-auto">
+                          <!-- Outline Button group -->
+                          <div class="">
+                            <p class="mb-0">Rate your interest</p>
+                            <i class="my-rating"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="mb-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer border-top-light justify-content-between">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+          <button type="button" class="btn bg-success-2 text-white text-white" data-toggle="modal"
+            data-target="#marketplace_expanded_preview" data-dismiss="modal">Next</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Marketplace expanded preview Modal -->
+  <div class="modal fade overflow-auto" id="marketplace_expanded_preview" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg-custom" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-bottom-light">
+          <h5 class="modal-title text-uppercase text-bold-600 text-capitalize">Preview your marketplace expanded view
+            post
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body container">
+          <div class="my-1">
+            <section id="simple-user-cards-two">
+              <div class="row match-height">
+                <div class="col-sm-12">
+                  <div onclick="location.href='market-profile-page.html'" class="card entry--opportunities bg-white">
+                    <div class="card-header bg-red-extra text-center text-white">
+                      <h4 class="card-title text-bold-600 text-uppercase text-white">
+                        Opportunity Title</h4>
+                    </div>
+
+                    <div class="card-body">
+
+                      <div class="d-flex mb-1 bg-light justify-content-between align-items-center">
+                        <p class="border-right p-75 mb-0">Marketplace</p>
+                        <p class="p-75 text-center mb-0">Main Category</p>
+                        <p class="border-slft p-75 mb-0">Posted:
+                          xx/xx/xxxx</p>
+                      </div>
+
+                      <div class="row mb-1">
+                        <div class="col-xl col-lg-6 col-sm-6 border-lg--right">
+                          <div class="row no-gutters align-items-center
+                                                                justify-content-center mkt-user--info">
+                            <div class="d-flex align-items-center w-100 pt-1">
+                              <img src="assets/images/logo/design-img-4.png" class="border--dark mx-1 my-25 rounded"
+                                width="50" height="50" alt="">
+                              <div>
+                                <p class="mb-0">
+                                  Company Name
+                                </p>
+                                <p class="mb-0">
+                                  Company Category
+                                </p>
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center w-100 pt-1">
+                              <img src="assets/images/portrait/small/avatar-s-2.png"
+                                class="border--dark mx-1 my-25 rounded" width="50" height="50" alt="">
+                              <div>
+                                <p class="mb-0">By: (1st, last name)
+                                </p>
+                                <p class="mb-0">(Tile), (Company)
+                                </p>
+                                <p class="mb-0">(City & Country)
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-xl col-lg-6 col-sm-6 border-lg--right">
+                          <div class="row">
+                            <div class="col-12">
+                              <p class="m-sub-category text-bold-600">Sub-category
+                              </p>
+                            </div>
+                            <div class="col-6">
+                              <p class="m-sub-category">Sub-category</p>
+                            </div>
+                            <div class="col-6">
+                              <p class="m-sub-category">Sub-category</p>
+                            </div>
+                            <div class="col-6">
+                              <p class="m-sub-category">Sub-category</p>
+                            </div>
+                            <div class="col-6">
+                              <p class="m-sub-category">Sub-category</p>
+                            </div>
+                            <div class="col-6">
+                              <p class="m-sub-category">Sub-category</p>
+                            </div>
+                            <div class="col-6">
+                              <p class="m-sub-category">Sub-category</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-xl col-lg-6 col-md-6 border-lg--right">
+                          <div class="row h-100 align-items-center">
+                            <div class="col-6">
+                              <div class="text-center border-right">
+                                <p class="px-1 mb-0 border-bottom"><i class="fa fa-handshake-o fs-17"
+                                    aria-hidden="true"></i> (xxxx)</p>
+                                <p class="px-1 mb-0"><i class="fa fa-link fs-17" aria-hidden="true"></i>
+                                  (xxxx)</p>
+                              </div>
+                            </div>
+
+                            <div class="col-6">
+                              <div class="row">
+                                <button type="button"
+                                  class="btn btn-outline-primary btn-sm btn-round btn-block mt-25 py-75 mr-50">
+                                  <i class="fa fa-handshake-o"></i> Connect
+                                </button>
+                                <button type="button"
+                                  class="btn btn-outline-primary btn-sm btn-round btn-block mt-25 py-75 mr-50">
+                                  <i class="fa fa-rss-square"></i> Follow
+                                </button>
+                                <button type="button"
+                                  class="btn btn-outline-primary btn-sm btn-round btn-block mt-25 py-75 mr-50">
+                                  <i class="fa fa-plus"></i> Connect
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-xl col-lg-6 col-sm-6">
+                          <div class="row">
+
+                            <div class="col-12">
+                              <div class="py-75 border-bottom mt-3">
+                                Schedule a Meeting
+                                <a href="#">
+                                  <img src="assets/images/logo/calendar.png" data-toggle="tooltip" data-placement="top"
+                                    title="Suggest a meeting" data-original-title="Suggest a meeting" class="ml-2 mr-1"
+                                    width="20" alt="">
+                                </a>
+                              </div>
+                            </div>
+
+                            <hr class="m-0">
+
+                            <div class="col-12">
+                              <div class="border-bottom py-75 ml-auto">
+                                Send a message
+                                <a href="#">
+                                  <img src="assets/images/logo/speech-bubble.png" data-toggle="tooltip"
+                                    data-placement="top" title="Message" data-original-title="Message" class="ml-2 mr-1"
+                                    width="20" alt="">
+                                </a>
+                              </div>
+                            </div>
+
+                            <hr class="m-0">
+
+                            <div class="col-12">
+                              <div class="d-flex py-25 align-items-center">
+                                Potential
+                                <span class="ml-1 border-radi-5"><i class="my-rating d-flex ml-2 mr-1"></i></span>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-sm-8">
+                          <div class="tl-art-work schedule--meeting-carousel bg-light-grey">
+                            <div id="owl-demo" class="owl-carousel">
+                              <div class="item"><img src="assets/images/gallery/2.jpg" alt="Owl Image"></div>
+                              <div class="item"><img src="assets/images/gallery/3.jpg" alt="Owl Image"></div>
+                              <div class="item"><img src="assets/images/gallery/4.jpg" alt="Owl Image"></div>
+                              <div class="item"><img src="assets/images/gallery/5.jpg" alt="Owl Image"></div>
+                              <div class="item"><img src="assets/images/gallery/6.jpg" alt="Owl Image"></div>
+                              <div class="item"><img src="assets/images/gallery/7.jpg" alt="Owl Image"></div>
+                              <div class="item"><img src="assets/images/gallery/8.jpg" alt="Owl Image"></div>
+                              <div class="item"><img src="assets/images/gallery/9.jpg" alt="Owl Image"></div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                        <div class="col-sm-4 schedule--meeting-carousel bg-light-grey d-none d-sm-flex">
+                          <div
+                            class="embed-responsive embed-responsive-item
+                                                            embed-responsive-16by9 mt-1 marketplace--video chedule--meeting-carousel">
+                            <iframe width="853" height="480" src="https://www.youtube.com/embed/WmKZaMDmwCo"
+                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen=""></iframe>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="row mx-0 1">
+
+                            <div class="col-lg-12 col-sm-12 px-0">
+                              <div class="entry--content w-100">
+                                <div class="border-border-top-light marketplace--verbiage py-0">
+                                  <p class="mb-0">Opportunity Summary (Max. 2
+                                    lines)</p>
+                                </div>
+
+                                <div class="border-border-top-light bg-light-grey marketplace--verbiage">
+
+                                  <div class="py-2"></div>
+                                </div>
+                              </div>
+
+                              <div class="entry--content w-100">
+                                <div class="border-border-top-light marketplace--verbiage py-0">
+                                  <p class="mb-0">What we
+                                    offer:</p>
+                                </div>
+
+                                <div class="border-border-top-light bg-light-grey marketplace--verbiage">
+
+                                  <div class="py-2"></div>
+                                </div>
+                              </div>
+
+                              <div class="border-border-top-light marketplace--verbiage py-0">
+                                <p class="mb-0">What
+                                  we are looking for:</p>
+                              </div>
+
+                              <div class="border-border-top-light bg-light-grey marketplace--verbiage">
+
+                                <div class="py-2"></div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+
+                        <div class="col-sm-6">
+
+                          <div class="col-lg-12 col-md-12 px-0">
+                            <div class="row no-gutters">
+                              <div class="col-12">
+                                <div class="row mx-0 3 no-gutters align-items-center">
+                                  <div class="col-12 px-0">
+                                    <div class="entry--content w-100">
+                                      <div class="border-border-top-light marketplace--verbiage mb-0 px-0">
+                                        <p class="mb-0 ml-75">
+                                          Platforms: </p>
+                                        <div class="border-border-top-light bg-light-grey marketplace--verbiage my-0">
+                                          <div class="mt-3"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                </div>
+
+                                <div class="row mx-0 no-gutters align-items-center">
+                                  <div class="col-12 px-0">
+                                    <div class="entry--content w-100">
+                                      <div class="border-border-top-light marketplace--verbiage my-0 px-0">
+                                        <p class="mb-0 ml-75">
+                                          Genres:
+                                        </p>
+                                        <div class="border-border-top-light bg-light-grey marketplace--verbiage my-0">
+                                          <div class="mt-3"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="row mx-0 no-gutters align-items-center">
+                                  <div class="col-12 px-0">
+                                    <div class="entry--content w-100">
+                                      <div class="border-border-top-light marketplace--verbiage my-0 px-0">
+                                        <p class="mb-0 ml-75">
+                                          Territories: </p>
+                                        <div class="border-border-top-light bg-light-grey marketplace--verbiage my-0">
+                                          <div class="mt-3"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                              </div>
+                            </div>
+
+                          </div>
+
+                        </div>
+
+                        <div class="mb-2"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="modal-footer border-top-light justify-content-between">
+          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#marketplace_preview"
+            data-dismiss="modal">Back</button>
+          <!-- <button type="button" class="btn btn-secondary ml-auto" data-toggle="modal" data-target="#marketplace_preview"
+            data-dismiss="modal">Back</button> -->
+          <button type="button" class="btn bg-success-2 text-white text-white">Post</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="h--200">
+    <div class="col-md-4 m-auto social-icon-section">
+      <div class="col-3 social-icon">
+        <a href="#"><i class="fa fa-facebook-square"></i></a>
+      </div>
+      <div class="col-3 social-icon">
+        <a href="#"><i class="fa fa-twitter-square"></i></a>
+      </div>
+      <div class="col-3 social-icon">
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+      </div>
+      <div class="col-3 social-icon">
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="abt-link-section">
+      <a href="#">IMPRINT / IMPRESSUM</a>
+    </div>
+    <div class="p-2">
+      &copy;2020 Games Industry Network
+    </div>
+  </footer>
+
+
+  <!-- BEGIN: Vendor JS-->
+  <script src="assets/js/vendors/js/vendors.min.js"></script>
+  <!-- BEGIN Vendor JS-->
+
+  <!-- BEGIN: Page Vendor JS-->
+  <script src="assets/js/vendors/js/ui/jquery.sticky.js"></script>
+  <script src="assets/js/vendors/jquery.star-rating-svg.js"></script>
+  <script src="assets/js/ratings-callback.js"></script>
+  <script src="assets/js/forms/checkbox-radio.min.js"></script>
+  <script src="assets/js/dropzone.js"></script>
+
+  <script src="assets/owl-carousel/owl.carousel.min.js"></script>
+  <script src="assets/js/simple-custom.js"></script>
+  <script src="assets/js/owl-custom.js"></script>
+  <script src="assets/js/nav-toggler.js"></script>
+  <!-- END: Page Vendor JS-->
+
+
+
+</body>
+<!-- END: Body-->
+
+
+</html>

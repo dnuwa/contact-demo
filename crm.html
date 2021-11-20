@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <title>crm</title>
+
+    <!-- BEGIN: GIN CSS-->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/gin-favicons/favicon-16x16.png">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/colors.min.css">
+    <link href="http://cdn.syncfusion.com/17.4.0.46/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
+    <!-- END: GIN CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/homepage.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/star-rating-svg.css">
+    <!-- END: Custom CSS-->
+
+    <!-- BEGIN: Page JS-->
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/all.min.css"> -->
+    <!-- END: Page JS-->
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="horizontal-layout horizontal-menu 2-columns  " data-open="click" data-menu="horizontal-menu" data-col="2-columns">
+
+    <!-- BEGIN: Header-->
+    <header id="headerNavbar">
+        <div class="container">
+            <nav class="navbar px-0">
+                <a class="navbar-brand" href="index.html">
+                    <img class="brand-logo" alt="Global Games Industry Network Logo" src="assets/images/logo/logo.png">
+                </a>
+
+                <ul class="nav-list ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><img src="assets/images/home-generted-white.svg" alt="" class="nav-img-cons-white mb-50" width="30"><img src="assets/images/home-generted-black.svg" class="nav-img-cons-black mb-50" width="30" alt=""><br>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="database.html"><i class="fa fa-database"></i><br>Industry <br>
+              Database <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html"><img src="assets/images/icons/Icons-in-White-02.svg" alt="" class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-02.svg" class="nav-img-cons-black" width="48" alt="">
+                            <br>Events/<br class="d-none d-lg-flex">Planning
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="networking.html"><img src="assets/images/icons/Icons-in-White-04.svg" alt="" class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-04.svg" class="nav-img-cons-black" width="48" alt=""><br>Industry <br> Network
+                            <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="marketplace.html"><img src="assets/images/icons/Icons-in-White-18.svg" alt="" class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-03.svg" class="nav-img-cons-black" width="48" alt=""><br>Marketplace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="crm-contacts.html"><i class="fa fa-address-card"></i><br>
+                            Biz Dev<br class="d-none d-lg-flex">
+                            Contacts <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="crm.html"><img src="assets/images/icons/Icons-in-White-01.svg" alt="" class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-01.svg" width="48" class="nav-img-cons-black" alt=""><br>Biz Dev<br class="d-none d-lg-flex">pipeline <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item d-block d-md-none">
+                        <a class="nav-link" href=""><i class="fa fa-newspaper-o"></i><br>
+              Industry News <span class="text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item d-block d-md-none">
+                        <a class="nav-link" href=""><i class="fa fa-file-text"></i><br>
+              News from our team <span class="text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item d-block d-md-none">
+                        <a class="nav-link" href="profile.html"><i class="fa fa-user"></i><br>
+              My Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html"><i class="fa fa-tags"></i><br>
+              Pricing</a>
+                    </li>
+                    <li class="nav-item auth-link border-0">
+                        <div class="dropdown pt-1">
+                                <a class="nav-link nav-item-wrapper dropdown-toggle bg-transparent" href="#" role="button"
+                                    id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="assets/images/portrait/small/avatar-s-1.png" class="round mr-50" width="40px" alt="user-avatar">
+                                    <p>Scott</p>
+                                </a>
+                            
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#"><i class="fa fa-user" aria-hidden="true"></i> Profile</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+                                </div>
+                            </div>
+                    </li>
+                </ul>
+                <div class="menu-toggle">
+                    <div class="hamburger">
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- END: Header-->
+
+    <!-- END: Main Menu-->
+    <!-- BEGIN: Content-->
+    <div class="app-content center-layout mt-2 mx-1">
+        <div class="container">
+            <div class="content-overlay"></div>
+            <div class="content-wrapper">
+                <!-- <div class="content-header row pt-2 d-none d-lg-block">
+          <div class="content-header-left col-12 mb-2">
+            <h3 class="content-header-title mb-0 text-uppercase text-center text-bold-600">global games industry network
+            </h3>
+            <h4 class="content-header-title mb-0 text-capitalize text-center text-bold-600">Join the network. it's free
+              to
+              signup.</h4>
+          </div>
+        </div> -->
+                <!-- <div class="content-header row mt-0 d-block d-lg-none">
+          <div class="content-header-left col-12 mb-1">
+            <p class="content-header-title mb-0 text-uppercase text-center text-bold-600">global games industry network
+            </p>
+          </div>
+        </div> -->
+                <div class="content-body">
+                    <!-- User Feed -->
+
+                    <section id="user-feed">
+                        <div id="main-content" class="row">
+                            <!-- Feed Section -->
+                            <div class="col-lg-3 d-none d-xl-block">
+                                <div class="home-left-sticky-component sticky-component-full-screen">
+                                    <div class="card border-light">
+                                <div class="card-header bg-red-extra text-white d-flex align-items-center">
+                                    <h4 class="card-title text-center text-bold-600 text-capitalize text-white w-100">
+                                        My Dashboard</h4>
+                                </div>
+                                <div class="user-info">
+                                    <div class="user-name d-block text-center">
+                                        <img class="rounded-circle" src="assets/images/portrait/small/avatar-s-9.png" alt="">
+                                        <div class="text-center">
+                                            <h6>Holley Scott</h6>
+                                            <p>job_title</p>
+                                            <p>company_name</p>
+                                            <p><a href="javascript:void();" class="btn btn-sm btn-danger-2 my-50"><small><b>Upgrade Free
+                                                            Account</b></small></a></p>
+                                        </div>
+                                    </div>
+                                
+                                    <ul class="text-truncate pl-25 sidebar-ul-border">
+                                        <li><img src="assets/images/icons/Icons-in-Black-23.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                                href="meeting-agenda.html">Meetings
+                                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span>
+                                            </a>
+                                
+                                        </li>
+                                        <li><img src="assets/images/icons/Icons-in-Black-24.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                                href="meetup-requests.html">Meetup
+                                                requests <span class="badge badge-secondary badge-red-extra mb-25 pull-right">xx</span></a>
+                                        </li>
+                                        <li><i class="fa fa-inbox"></i>&nbsp;&nbsp;<a href="messages.html">Messages
+                                                <span class="badge badge-secondary
+                                                                                            badge badge-outline-secondary
+                                                                                            pull-right">xx</span></a>
+                                        </li>
+                                        <li><i class="fa fa-bell"></i>&nbsp;&nbsp;<a href="notifications.html">Notifications
+                                                <span class="badge badge-secondary badge-red-extra mb-25 pull-right">xx</span></a>
+                                        </li>
+                                    </ul>
+                                    <ul class="text-truncate pl-25 sidebar-ul-border">
+                                        <li><img src="assets/images/icons/Icons-in-Black-02.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                                href="events-attending.html">My
+                                                Events
+                                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span>
+                                            </a>
+                                        </li>
+                                        <li><i class="fa fa-calendar"></i>&nbsp;&nbsp;<a href="my-calendar.html">My
+                                                Calendar</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="text-truncate pl-25 sidebar-ul-border">
+                                        <li><img src="assets/images/icons/Icons-in-Black-11.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                                href="my-connection.html">My
+                                                Connections
+                                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                                        </li>
+                                        <li><i class="fa fa-rss-square"></i>&nbsp;&nbsp;<a href="following.html">Following
+                                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                                        </li>
+                                        <li><img src="assets/images/icons/Icons-in-Black-09.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                                href="followers.html">Followers
+                                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                                        </li>
+                                    </ul>
+                                    <ul class="text-truncate pl-25 sidebar-ul-border">
+                                        <li><img src="assets/images/icons/Icons-in-Black-12.svg" width="35" alt="">&nbsp;&nbsp;<a href="profile.html">My
+                                                Profile Views
+                                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                                        </li>
+                                        <li><img src="assets/images/icons/Icons-in-Black-12.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                                href="marketplace.html">My Opportunity...
+                                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                                        </li>
+                                    </ul>
+                                    <ul class="text-truncate pl-25 sidebar-ul-border">
+                                        <li><i class="fa fa-database"></i>&nbsp;&nbsp;<a href="database.html">Company
+                                                Bookmarks</a></li>
+                                        <li><i class="fa fa-user-circle"></i>&nbsp;&nbsp;<a href="profile-edit.html">Update
+                                                Profile</a></li>
+                                        <li><img src="assets/images/icons/Contacts.svg" width="35" alt="">&nbsp;&nbsp;<a href="contact-us.html">Contact Us</a></li>
+                                    </ul>
+                                    <img src="assets/images/logo-1.png" alt="" class="img-fluid pt-2 pb-25">
+                                    <img src="assets/images/logo-2.png" alt="" class="img-fluid pb-2">
+                                </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="content" class="col-lg-9 col-md-12 col-sm-12">
+                                <section id="simple-user-cards" class="card border-secondary">
+                                    <!-- <a class="collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"> -->
+                                    <div class="card-header bg-red-extra text-white d-flex align-items-center">
+                                        <h4 class="card-title text-center text-bold-600 text-uppercase text-white w-100">
+                                            Biz dev pipeline</h4> <i class="fa fa-question-circle text-white" data-toggle="popover" data-placement="bottom" data-content="" data-trigger="hover" data-original-title="Biz Dev Pipeline"></i>
+                                    </div>
+                                    <hr class="m-0">
+                                    <div class="card-content bg-light-grey">
+                                        <div class="card-body pt-25 px-25">
+                                            <!-- Basic Kanban App -->
+                                            <div class="kanban-overlay"></div>
+                                            <section id="kanban-wrapper">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <!--<button type="button" class="btn btn-primary mb-1" id="add-kanban">
+                <i class='ft-plus-square mr-50'></i> Add New Board
+              </button> -->
+                                                        <div id="Kanban"></div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <!--/ Sample Project kanban -->
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- Birthday Card -->
+                        </div>
+                    </section>
+                    <!--/ User Feed -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+
+    <!-- Subscribe Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-light">
+                    <h5 class="modal-title text-uppercase text-bold-600" id="exampleModalLongTitle">global games industry network
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    Please subscribe to proceed...
+                </div>
+                <div class="modal-footer border-top-light">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn bg-success-2 text-white text-white">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="h--200 d-none">
+        <div class="col-md-4 m-auto social-icon-section">
+            <div class="col-3 social-icon">
+                <a href="#"><i class="fa fa-facebook-square"></i></a>
+            </div>
+            <div class="col-3 social-icon">
+                <a href="#"><i class="fa fa-twitter-square"></i></a>
+            </div>
+            <div class="col-3 social-icon">
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="col-3 social-icon">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="abt-link-section">
+            <a href="#">IMPRINT / IMPRESSUM</a>
+        </div>
+        <div class="p-2">
+            &copy;2020 Games Industry Network
+        </div>
+    </footer>
+
+
+    <!-- BEGIN: Vendor JS-->
+    <!-- <script src="https://unpkg.com/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script> -->
+    <script src="assets/js/vendors/js/vendors.min.js"></script>
+    <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
+    <script src="http://cdn.syncfusion.com/17.4.0.46/js/web/ej.web.all.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="assets/js/vendors/js/ui/jquery.sticky.js"></script>
+    <script src="assets/js/vendors/jquery.star-rating-svg.js"></script>
+    <script src="assets/js/ratings-callback.js"></script>
+    <script src="assets/js/nav-toggler.js"></script>
+    <!-- <script src="assets/js/sticky-sidebar.js"></script> -->
+
+
+    <!-- END: Page Vendor JS-->
+
+    <!-- Connect Button JS -->
+    <script type="text/javascript">
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+
+        function change() // no ';' here
+        {
+            var elem = document.getElementByClassName("connectButton");
+            if (elem.innerHTML == "Connect") elem.innerHTML = "Pending Request";
+            else if (elem.innerHTML == "Pending Request") elem.innerHTML = "Withdraw Request";
+            else elem.innerHTML = "Connect";
+        }
+    </script>
+    <!-- END: Connect Button JS-->
+
+    <script type="text/javascript">
+        //Add active class to the current control button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            })
+        }
+    </script>
+
+    <script type="text/javascript">
+        var sidebar = new StickySidebar('#sidebar', {
+            containerSelector: '#main-content',
+            innerWrapperSelector: '.sidebar__inner',
+            topSpacing: 20,
+            bottomSpacing: 20
+        });
+    </script>
+
+    <script type="text/javascript">
+        window.kanbanPizzaData = [{
+            Id: 1,
+            Title: "1st & Last Name",
+            Type: "Title (If addded from network)",
+            Size: "Small",
+            Category: "New",
+            Description: "Business Name (If linked)",
+            Tags: "Onions, Pepper, Cheese",
+            ImageURL: "assets/images/portrait/small/avatar-s-1.png"
+        }, {
+            Id: 2,
+            Title: "1st & Last Name",
+            Type: "Title (If addded from network)",
+            Size: "Medium",
+            Category: "small",
+            Description: "Business Name (If linked)",
+            Tags: "Onions, Pepper, Tomato, Zucchini",
+            ImageURL: "assets/images/portrait/small/avatar-s-2.png"
+        }, {
+            Id: 3,
+            Title: "1st & Last Name",
+            Type: "Title (If addded from network)",
+            Size: "small",
+            Category: "Pitch",
+            Description: "Business Name (If linked)",
+            Tags: "Onions, Pepper, Cheese",
+            ImageURL: "assets/images/portrait/small/avatar-s-3.png"
+        }, {
+            Id: 4,
+            Title: "1st & Last Name",
+            Type: "Title (If addded from network)",
+            Size: "Small",
+            Category: "Ready to Deliver",
+            Description: "Business Name (If linked)",
+            Tags: "Onions, Pepper, Cheese",
+            ImageURL: "assets/images/portrait/small/avatar-s-4.png"
+        }, {
+            Id: 5,
+            Title: "1st & Last Name",
+            Type: "Title (If addded from network)",
+            Size: "Small",
+            Category: "Delivered",
+            Description: "Business Name (If linked)",
+            Tags: "Onions, Pepper, Cheese",
+            ImageURL: "assets/images/portrait/small/avatar-s-5.png"
+        }, ]
+        $(function() {
+            var data = ej.DataManager(window.kanbanPizzaData)
+            $("#Kanban").ejKanban({
+                dataSource: data,
+                isResponsive: true,
+                workflows: [{
+                    key: "New",
+                    allowedTransitions: "Pitch,Ready to Deliver, Served, Delivered"
+                }, {
+                    key: "Pitch",
+                    allowedTransitions: "New,Ready to Deliver, Served, Delivered"
+                }, {
+                    key: "Ready to Deliver",
+                    allowedTransitions: "New, Pitch, Served, Delivered"
+                }],
+                enableTotalCount: true,
+                allowToggleColumn: true,
+                columns: [{
+                    headerText: "New",
+                    key: "New",
+                    showAddButton: true,
+                    /* allowDrop: false */
+                }, {
+                    headerText: "Pitch",
+                    key: "Pitch"
+                }, {
+                    headerText: "Bid",
+                    key: "Ready to Deliver"
+                }, {
+                    headerText: "Won",
+                    key: "Delivered,Served"
+                }],
+                keyField: "Category",
+                allowTitle: true,
+                fields: {
+                    content: "Description",
+                    primaryKey: "Id",
+                    title: "Title",
+                    color: "Size",
+                    imageUrl: "ImageURL"
+                },
+
+            });
+        });
+    </script>
+
+</body>
+<!-- END: Body-->
+
+
+</html>

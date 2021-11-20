@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- BEGIN: Head-->
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <title>Business database</title>
+
+    <!-- BEGIN: GIN CSS-->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/gin-favicons/favicon-16x16.png">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/colors.min.css">
+    <!-- END: GIN CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style-2.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/homepage.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/star-rating-svg.css">
+    <!-- END: Custom CSS-->
+
+    <!-- BEGIN: Page JS-->
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <!-- END: Page JS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="horizontal-layout horizontal-menu 2-columns" data-open="click" data-menu="horizontal-menu" data-col="2-columns" onselectstart="return false">
+
+    <!-- BEGIN: Header-->
+    <header id="headerNavbar">
+        <div class="container">
+            <nav class="navbar px-0">
+                <a class="navbar-brand" href="index.html">
+                    <img class="brand-logo" alt="Global Games Industry Network Logo" src="assets/images/logo/logo.png">
+                </a>
+
+                <ul class="nav-list ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><img src="assets/images/home-generted-white.svg" alt="" class="nav-img-cons-white mb-50" width="30"><img src="assets/images/home-generted-black.svg" class="nav-img-cons-black mb-50" width="30" alt=""><br>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="database.html"><i class="fa fa-database"></i><br>Industry <br>
+                            Database <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html"><img src="assets/images/icons/Icons-in-White-02.svg" alt="" class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-02.svg" class="nav-img-cons-black" width="48" alt="">
+                            <br>Events/<br class="d-none d-lg-flex">Planning
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="networking.html"><img src="assets/images/icons/Icons-in-White-04.svg" alt="" class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-04.svg" class="nav-img-cons-black" width="48" alt=""><br>Industry <br> Network
+                            <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="marketplace.html"><img src="assets/images/icons/Icons-in-White-18.svg" alt="" class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-03.svg" class="nav-img-cons-black" width="48" alt=""><br>Marketplace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="crm-contacts.html"><i class="fa fa-address-card"></i><br>
+                            Biz Dev<br class="d-none d-lg-flex">
+                            Contacts <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="crm.html"><img src="assets/images/icons/Icons-in-White-01.svg" alt="" class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-01.svg" width="48" class="nav-img-cons-black" alt=""><br>Biz Dev<br class="d-none d-lg-flex">pipeline <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item d-block d-md-none">
+                        <a class="nav-link" href=""><i class="fa fa-newspaper-o"></i><br>
+                            Industry News <span class="text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item d-block d-md-none">
+                        <a class="nav-link" href=""><i class="fa fa-file-text"></i><br>
+                            News from our team <span class="text-accepted-2">(xx)</span></a>
+                    </li>
+                    <li class="nav-item d-block d-md-none">
+                        <a class="nav-link" href="profile.html"><i class="fa fa-user"></i><br>
+                            My Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html"><i class="fa fa-tags"></i><br>
+                            Pricing</a>
+                    </li>
+                    <li class="nav-item auth-link border-0">
+                        <div class="dropdown pt-1">
+                                <a class="nav-link nav-item-wrapper dropdown-toggle bg-transparent" href="#" role="button"
+                                    id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="assets/images/portrait/small/avatar-s-1.png" class="round mr-50" width="40px" alt="user-avatar">
+                                    <p>Scott</p>
+                                </a>
+                            
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#"><i class="fa fa-user" aria-hidden="true"></i> Profile</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+                                </div>
+                            </div>
+                    </li>
+                </ul>
+                <div class="menu-toggle">
+                    <div class="hamburger">
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- END: Header-->
+
+    <!-- END: Main Menu-->
+    <!-- BEGIN: Content-->
+    <div class="app-content center-layout mx-1 mt-2 app-database-content">
+        <div class="container">
+            <!-- <div class="content-overlay"></div> -->
+            <div class="content-header row d-lg-none bg-profile-mobi">
+                <div class="content-header-left align-items-center mb-1 mt-1 col-12 mx-1">
+                    <button type="button" class="btn btn-sm btn-dark round pull-left" aria-expanded="false" onclick="javascript:history.go(-1)">
+                        <i class="fa fa-arrow-left"></i> &nbsp; Back
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-3 d-none d-xl-block">
+                    <div class="home-left-sticky-component sticky-component-full-screen">
+                        <div class="card border-light">
+                                <div class="card-header bg-red-extra text-white d-flex align-items-center">
+                                    <h4 class="card-title text-center text-bold-600 text-capitalize text-white w-100">
+                                        My Dashboard</h4>
+                                </div>
+                                <div class="user-info">
+                                    <div class="user-name d-block text-center">
+                                        <img class="rounded-circle" src="assets/images/portrait/small/avatar-s-9.png" alt="">
+                                        <div class="text-center">
+                                            <h6>Holley Scott</h6>
+                                            <p>job_title</p>
+                                            <p>company_name</p>
+                                            <p><a href="javascript:void();" class="btn btn-sm btn-danger-2 my-50"><small><b>Upgrade Free
+                                                            Account</b></small></a></p>
+                                        </div>
+                                    </div>
+                                
+                                    <ul class="text-truncate pl-25 sidebar-ul-border">
+                                        <li><img src="assets/images/icons/Icons-in-Black-23.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                                href="meeting-agenda.html">Meetings
+                                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span>
+                                            </a>
+                                
+                                        </li>
+                                        <li><img src="assets/images/icons/Icons-in-Black-24.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                                href="meetup-requests.html">Meetup
+                                                requests <span class="badge badge-secondary badge-red-extra mb-25 pull-right">xx</span></a>
+                                        </li>
+                                        <li><i class="fa fa-inbox"></i>&nbsp;&nbsp;<a href="messages.html">Messages
+                                                <span class="badge badge-secondary
+                                                                                            badge badge-outline-secondary
+                                                                                            pull-right">xx</span></a>
+                                        </li>
+                                        <li><i class="fa fa-bell"></i>&nbsp;&nbsp;<a href="notifications.html">Notifications
+                                                <span class="badge badge-secondary badge-red-extra mb-25 pull-right">xx</span></a>
+                                        </li>
+                                    </ul>
+                                    <ul class="text-truncate pl-25 sidebar-ul-border">
+                                        <li><img src="assets/images/icons/Icons-in-Black-02.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                                href="events-attending.html">My
+                                                Events
+                                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span>
+                                            </a>
+                                        </li>
+                                        <li><i class="fa fa-calendar"></i>&nbsp;&nbsp;<a href="my-calendar.html">My
+                                                Calendar</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="text-truncate pl-25 sidebar-ul-border">
+                                        <li><img src="assets/images/icons/Icons-in-Black-11.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                                href="my-connection.html">My
+                                                Connections
+                                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                                        </li>
+                                        <li><i class="fa fa-rss-square"></i>&nbsp;&nbsp;<a href="following.html">Following
+                                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                                        </li>
+                                        <li><img src="assets/images/icons/Icons-in-Black-09.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                                href="followers.html">Followers
+                                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                                        </li>
+                                    </ul>
+                                    <ul class="text-truncate pl-25 sidebar-ul-border">
+                                        <li><img src="assets/images/icons/Icons-in-Black-12.svg" width="35" alt="">&nbsp;&nbsp;<a href="profile.html">My
+                                                Profile Views
+                                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                                        </li>
+                                        <li><img src="assets/images/icons/Icons-in-Black-12.svg" width="35" alt="">&nbsp;&nbsp;<a
+                                                href="marketplace.html">My Opportunity...
+                                                <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                                        </li>
+                                    </ul>
+                                    <ul class="text-truncate pl-25 sidebar-ul-border">
+                                        <li><i class="fa fa-database"></i>&nbsp;&nbsp;<a href="database.html">Company
+                                                Bookmarks</a></li>
+                                        <li><i class="fa fa-user-circle"></i>&nbsp;&nbsp;<a href="profile-edit.html">Update
+                                                Profile</a></li>
+                                        <li><img src="assets/images/icons/Contacts.svg" width="35" alt="">&nbsp;&nbsp;<a href="contact-us.html">Contact Us</a></li>
+                                    </ul>
+                                    <img src="assets/images/logo-1.png" alt="" class="img-fluid pt-2 pb-25">
+                                    <img src="assets/images/logo-2.png" alt="" class="img-fluid pb-2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="content" class="col-lg-9 col-md-12 col-sm-12">
+                    <div class="content-wrapper app-database-wrapper">
+
+                        <section id="simple-user-cards" class="card border-secondary d-none d-lg-block mb-0">
+                            <!-- <a class="collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"> -->
+                            <div class="card-header m-0 p-0">
+                                <div class="card-header bg-red-extra text-white">
+                                    <h4 class="card-title text-center text-bold-600 text-uppercase text-white">
+                                        Add New Event</h4>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-row post-event-form">
+                                        <div class="col-md-4 mb-1">
+                                            <label for="event-title">Event Title*</label>
+                                            <input type="text" class="form-control col-form-label-sm" id="" placeholder="" required>
+                                        </div>
+                                        <div class="col-md-8 mb-1">
+                                            <label for="short-description">Short Description*</label>
+                                            <input type="text" class="form-control col-form-label-sm" id="" placeholder="" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-md-3 mb-1">
+                                            <label for="img">Image / Logo*</label>
+                                            <input type="file" class="form-control col-form-label-sm" id="" placeholder="" required>
+                                        </div>
+                                        <div class="col-md-3 mb-1">
+                                            <label for="srt-date">Start Date*</label>
+                                            <input type="text" class="form-control col-form-label-sm" id="srtdatepicker" required />
+                                        </div>
+                                        <div class="col-md-3 mb-1">
+                                            <label for="end-date">End Date*</label>
+                                            <input type="text" class="form-control col-form-label-sm" id="enddatepicker" required>
+                                        </div>
+                                        <div class="col-md-3 mb-1">
+                                            <label for="time-zone">Time Zone*</label>
+                                            <select class="form-control" id="timezone"></select>
+                                        </div>
+                                    </div>
+                                    <div class="form-row mb-1">
+                                        <div class="col-md-4">
+                                            <label for="">Country*</label>
+                                            <select name="country" class="countries form-control col-form-label-sm" id="countryId">
+                                                <option value="">Select Country</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <label for="">State*</label>
+                                            <select name="state" class="states form-control col-form-label-sm" id="stateId">
+                                                <option value="">Select State</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <label for="">City*</label>
+                                            <select name="city" class="cities form-control col-form-label-sm" id="cityId">
+                                                <option value="">Select City</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-md-4 mb-1">
+                                            <label for="category">Category*</label>
+                                            <select class="selectpicker form-control col-form-label-sm" id="select-cat" multiple data-live-search="true">
+                                                <option value="">Award Show</option>
+                                                <option value="">Boot Camp</option>
+                                                <option value="">Conference</option>
+                                                <option value="">Developer Meetup</option>
+                                                <option value="">Game Jam</option>
+                                                <option value="">Other</option>
+                                                <option value="">Panel</option>
+                                                <option value="">Tradefair</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-4 mb-1">
+                                            <label for="">Weblink*</label>
+                                            <input type="text" class="form-control col-form-label-sm" id="" placeholder="" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-row mb-2">
+                                        <div class="col-md-12">
+                                            <label for="">Description*</label>
+                                            <textarea class="form-control col-form-label-sm" name="" id="" cols="30" rows="5" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <h4>Discounts</h4>
+                                        This is your chance to offer exclusive discount codes to members of the Global Games Industry Network, based on their membership levels. Please enter one single discount-code and the corresponding discount-rate per membership-type you would like to offer
+                                        discounts to.
+                                    </div>
+                                    <div class="form-group">
+                                        <h>Discount Message</h>
+                                        Option to enter a personalized message about the discount to our members (e.g. "Our gift to all members, an exclusive discount on the entrance fee!")
+                                        <input class="form-control col-form-label-sm" type="text">
+                                    </div>
+                                    <div>
+                                        <h5>Free Code</h5>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            Free Code*<br> Please enter the discount code for free members<br>
+                                            <input type="text">
+                                        </div>
+                                        <div class="col-md-4">
+                                            Free Discount<br> Please enter the discount for free members in percent (without %, digits only)
+                                            <br>
+                                            <input type="text">
+                                        </div>
+                                        <div class="col-md-4">
+                                            Free Discount Deadline<br> Please define the expiry date of this discount code (if any)<br>
+                                            <input type="text" placeholder="dd/mm/yyyy">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <h5>Student</h5>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            Student Code*<br> Please enter the discount code for student-members<br>
+                                            <input type="text">
+                                        </div>
+                                        <div class="col-md-4">
+                                            Student Discount <br> Please enter the discount for student-members in percent (without %, digits only)
+                                            <br>
+                                            <input type="text">
+                                        </div>
+                                        <div class="col-md-4">
+                                            Student Discount Deadline <br> Please define the expiry date of this discount code (if any)<br>
+                                            <input type="text" placeholder="dd/mm/yyyy">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <h5>Basic</h5>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            Basic Code*<br> Please enter the discount code for business-members<br>
+                                            <input type="text">
+                                        </div>
+                                        <div class="col-md-4">
+                                            Basic Discount <br> Please enter the discount for business-members in percent (without %, digits only)
+                                            <br>
+                                            <input type="text">
+                                        </div>
+                                        <div class="col-md-4">
+                                            Basic Discount Deadline <br> Please define the expiry date of this discount code (if any)<br>
+                                            <input type="text" placeholder="dd/mm/yyyy">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <h5>Business</h5>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            Business Code*<br> Please enter the discount code for business-members<br>
+                                            <input type="text">
+                                        </div>
+                                        <div class="col-md-4">
+                                            Business Discount <br> Please enter the discount for business-members in percent (without %, digits only)
+                                            <br>
+                                            <input type="text">
+                                        </div>
+                                        <div class="col-md-4">
+                                            Business Discount Deadline <br> Please define the expiry date of this discount code (if any)<br>
+                                            <input type="text" placeholder="dd/mm/yyyy">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <h5>VIP</h5>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            VIP Code*<br> Please enter the discount code for business-members<br>
+                                            <input type="text">
+                                        </div>
+                                        <div class="col-md-4">
+                                            VIP Discount <br> Please enter the discount for business-members in percent (without %, digits only)
+                                            <br>
+                                            <input type="text">
+                                        </div>
+                                        <div class="col-md-4">
+                                            VIP Discount Deadline <br> Please define the expiry date of this discount code (if any)<br>
+                                            <input type="text" placeholder="dd/mm/yyyy">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <h5>Company</h5>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-md-4">
+                                            Company Code*<br> Please enter the discount code for business-members<br>
+                                            <input type="text">
+                                        </div>
+                                        <div class="col-md-4">
+                                            Company Discount <br> Please enter the discount for business-members in percent (without %, digits only)
+                                            <br>
+                                            <input type="text">
+                                        </div>
+                                        <div class="col-md-4">
+                                            Company Discount Deadline <br> Please define the expiry date of this discount code (if any)<br>
+                                            <input type="text" placeholder="dd/mm/yyyy">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                            <label class="form-check-label" for="invalidCheck2">
+                                                Please confirm that you are the person in charge for this event
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-outline-primary" type="submit">Post Event</button>
+                                </form>
+                            </div>
+                            <!-- </a> -->
+                        </section>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    <!-- END: Content-->
+
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-light">
+                    <h5 class="modal-title text-uppercase text-bold-600" id="exampleModalLongTitle">global games industry network
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body modal-message">
+                    You're already connected to (Name of Business)
+                </div>
+                <div class="modal-footer border-top-light">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn bg-success-2 text-white">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-light">
+                    <h5 class="modal-title text-uppercase text-bold-600" id="exampleModalLongTitle2">global games industry network
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body modal-message">
+                    You're already following to (Name of Business)
+                </div>
+                <div class="modal-footer border-top-light">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn bg-success-2 text-white">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle3" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-light">
+                    <h5 class="modal-title text-uppercase text-bold-600" id="exampleModalLongTitle3">global games industry network
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body modal-message">
+                    You already added this business to your Biz Dev
+                </div>
+                <div class="modal-footer border-top-light">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn bg-success-2 text-white">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle-" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-light">
+                    <h5 class="modal-title text-uppercase text-bold-600" id="exampleModalLongTitle-">global games industry network
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body modal-message">
+                    Please subscribe to proceed...
+                </div>
+                <div class="modal-footer border-top-light">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn bg-success-2 text-white">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ADD Biz Dev MODAL -->
+    <div class="modal fade" id="add2CRM" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-light">
+                    <h5 class="modal-title" id="add2CRMLongTitle"> </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <h4>Are you sure you want to add<br>(Company Name) to your Biz Dev?</h4>
+                </div>
+                <div class="modal-footer border-light">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                    <button type="button" class="btn btn-danger" onclick="window.location.href='create-contact-business.html'">Add
+                        Info</button>
+                    <button type="button" class="btn bg-success-2 text-white">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="h--200">
+        <div class="col-md-4 m-auto social-icon-section">
+            <div class="col-3 social-icon">
+                <a href="#"><i class="fa fa-facebook-square"></i></a>
+            </div>
+            <div class="col-3 social-icon">
+                <a href="#"><i class="fa fa-twitter-square"></i></a>
+            </div>
+            <div class="col-3 social-icon">
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="col-3 social-icon">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="abt-link-section">
+            <a href="#">IMPRINT / IMPRESSUM</a>
+        </div>
+        <div class="p-2">
+            &copy;2020 Games Industry Network
+        </div>
+    </footer>
+
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="assets/js/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="assets/js/vendors/js/ui/jquery.sticky.js"></script>
+    <script src="assets/js/vendors/jquery.star-rating-svg.js"></script>
+    <script src="assets/js/ratings-callback.js"></script>
+    <script src="assets/js/nav-toggler.js"></script>
+    <!-- END: Page Vendor JS-->
+
+    <script>
+        $(document).ready(function() {
+            $(".connected-true").click(function() {
+                $("#myModal1").modal();
+            });
+            $(".following-true").click(function() {
+                $("#myModal2").modal();
+            });
+            $(".crm-true").click(function() {
+                $("#myModal3").modal();
+            });
+            $(".modal-message").click(function() {
+                $("#myModal").modal();
+            });
+        });
+    </script>
+
+    <!-- Code injected by live-server -->
+    <script type="text/javascript">
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function() {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() ==
+                            "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date()
+                                .valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function(msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        } else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+        // ]]>
+    </script>
+</body>
+<!-- END: Body-->
+
+
+</html>

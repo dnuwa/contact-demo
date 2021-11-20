@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- BEGIN: Head-->
+
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+  <title>Profile</title>
+
+  <!-- BEGIN: GIN CSS-->
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/gin-favicons/favicon-16x16.png">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/custom.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/colors.min.css">
+  <!-- END: GIN CSS-->
+
+  <!-- BEGIN: Custom CSS-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/star-rating-svg.css">
+  <!-- END: Custom CSS-->
+
+  <!-- BEGIN: Page JS-->
+  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+  <!-- END: Page JS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="horizontal-layout horizontal-menu 2-columns profile-page " data-open="click" data-menu="horizontal-menu"
+  data-col="2-columns">
+
+  <!-- BEGIN: Header-->
+  <header id="headerNavbar">
+    <div class="container">
+      <nav class="navbar px-0">
+        <a class="navbar-brand" href="index.html">
+          <img class="brand-logo" alt="Global Games Industry Network Logo" src="assets/images/logo/logo.png">
+        </a>
+
+        <ul class="nav-list ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><img src="assets/images/home-generted-white.svg" alt=""
+                                class="nav-img-cons-white mb-50" width="30"><img
+                                src="assets/images/home-generted-black.svg" class="nav-img-cons-black mb-50" width="30"
+                                alt=""><br>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="database.html"><i class="fa fa-database"></i><br>Industry <br>
+              Database <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html"><img src="assets/images/icons/Icons-in-White-02.svg" alt=""
+                class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-02.svg"
+                class="nav-img-cons-black" width="48" alt="">
+              <br>Events/<br class="d-none d-lg-flex">Planning</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="networking.html"><img src="assets/images/icons/Icons-in-White-04.svg" alt=""
+                class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-04.svg"
+                class="nav-img-cons-black" width="48" alt=""><br>Industry <br>
+              Network<span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="marketplace.html"><img src="assets/images/icons/Icons-in-White-18.svg" alt=""
+                class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-03.svg"
+                class="nav-img-cons-black" width="48" alt=""><br>Marketplace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="crm-contacts.html"><i class="fa fa-address-card"></i><br>
+                            Biz Dev<br class="d-none d-lg-flex">
+                            Contacts <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="crm.html"><img src="assets/images/icons/Icons-in-White-01.svg" alt=""
+                class="nav-img-cons-white" width="48"><img src="assets/images/icons/Icons-in-Black-01.svg" width="48"
+                class="nav-img-cons-black" alt=""><br>Biz Dev<br class="d-none d-lg-flex">pipeline <span class="d-inline d-md-none text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item d-block d-md-none">
+            <a class="nav-link" href=""><i class="fa fa-newspaper-o"></i><br>
+              Industry News <span class="text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item d-block d-md-none">
+            <a class="nav-link" href=""><i class="fa fa-file-text"></i><br>
+              News from our team <span class="text-accepted-2">(xx)</span></a>
+          </li>
+          <li class="nav-item d-block d-md-none">
+            <a class="nav-link" href="profile.html"><i class="fa fa-user"></i><br>
+              My Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html"><i class="fa fa-tags"></i><br>
+              Pricing</a>
+          </li>
+          <li class="nav-item auth-link border-0">
+            <div class="dropdown pt-1">
+                                <a class="nav-link nav-item-wrapper dropdown-toggle bg-transparent" href="#" role="button"
+                                    id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="assets/images/portrait/small/avatar-s-1.png" class="round mr-50" width="40px" alt="user-avatar">
+                                    <p>Scott</p>
+                                </a>
+                            
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#"><i class="fa fa-user" aria-hidden="true"></i> Profile</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+                                </div>
+                            </div>
+          </li>
+        </ul>
+        <div class="menu-toggle">
+          <div class="hamburger">
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- END: Header-->
+
+  <!-- END: Main Menu-->
+  <!-- BEGIN: Content-->
+
+  <div class="app-content center-layout mx-1">
+    <div class="container">
+      <div class="content-overlay"></div>
+      <div class="content-wrapper">
+        <div class="content-body">
+          <!-- User Feed -->
+          <section id="user-feed">
+            <!-- Profile Intro -->
+            <div class="row">
+
+              <div class="col-lg-3 d-none d-xl-block">
+                <div class="home-left-sticky-component sticky-component-full-screen">
+                  <div class="card border-light">
+                    <div class="card-header bg-red-extra text-white d-flex align-items-center">
+                      <h4 class="card-title text-center text-bold-600 text-capitalize text-white w-100">
+                        My Dashboard</h4>
+                    </div>
+                    <div class="user-info">
+                      <div class="user-name d-block text-center">
+                        <img class="rounded-circle" src="assets/images/portrait/small/avatar-s-9.png" alt="">
+                        <div class="text-center">
+                          <h6>Holley Scott</h6>
+                          <p>job_title</p>
+                          <p>company_name</p>
+                          <p><a href="javascript:void();" class="btn btn-sm btn-danger-2 my-50"><small><b>Upgrade Free
+                                  Account</b></small></a></p>
+                        </div>
+                      </div>
+              
+                      <ul class="text-truncate pl-25 sidebar-ul-border">
+                        <li><img src="assets/images/icons/Icons-in-Black-23.svg" width="35" alt="">&nbsp;&nbsp;<a
+                            href="meeting-agenda.html">Meetings
+                            <span class="badge badge-outline-secondary pull-right mt-25">xx</span>
+                          </a>
+              
+                        </li>
+                        <li><img src="assets/images/icons/Icons-in-Black-24.svg" width="35" alt="">&nbsp;&nbsp;<a
+                            href="meetup-requests.html">Meetup
+                            requests <span class="badge badge-secondary badge-red-extra mb-25 pull-right">xx</span></a>
+                        </li>
+                        <li><i class="fa fa-inbox"></i>&nbsp;&nbsp;<a href="messages.html">Messages
+                            <span class="badge badge-secondary
+                                                                                                          badge badge-outline-secondary
+                                                                                                          pull-right">xx</span></a>
+                        </li>
+                        <li><i class="fa fa-bell"></i>&nbsp;&nbsp;<a href="notifications.html">Notifications
+                            <span class="badge badge-secondary badge-red-extra mb-25 pull-right">xx</span></a>
+                        </li>
+                      </ul>
+                      <ul class="text-truncate pl-25 sidebar-ul-border">
+                        <li><img src="assets/images/icons/Icons-in-Black-02.svg" width="35" alt="">&nbsp;&nbsp;<a
+                            href="events-attending.html">My
+                            Events
+                            <span class="badge badge-outline-secondary pull-right mt-25">xx</span>
+                          </a>
+                        </li>
+                        <li><i class="fa fa-calendar"></i>&nbsp;&nbsp;<a href="my-calendar.html">My
+                            Calendar</a>
+                        </li>
+                      </ul>
+                      <ul class="text-truncate pl-25 sidebar-ul-border">
+                        <li><img src="assets/images/icons/Icons-in-Black-11.svg" width="35" alt="">&nbsp;&nbsp;<a
+                            href="my-connection.html">My
+                            Connections
+                            <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                        </li>
+                        <li><i class="fa fa-rss-square"></i>&nbsp;&nbsp;<a href="following.html">Following
+                            <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                        </li>
+                        <li><img src="assets/images/icons/Icons-in-Black-09.svg" width="35" alt="">&nbsp;&nbsp;<a
+                            href="followers.html">Followers
+                            <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                        </li>
+                      </ul>
+                      <ul class="text-truncate pl-25 sidebar-ul-border">
+                        <li><img src="assets/images/icons/Icons-in-Black-12.svg" width="35" alt="">&nbsp;&nbsp;<a
+                            href="profile.html">My
+                            Profile Views
+                            <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                        </li>
+                        <li><img src="assets/images/icons/Icons-in-Black-12.svg" width="35" alt="">&nbsp;&nbsp;<a
+                            href="marketplace.html">My Opportunity...
+                            <span class="badge badge-outline-secondary pull-right mt-25">xx</span></a>
+                        </li>
+                      </ul>
+                      <ul class="text-truncate pl-25 sidebar-ul-border">
+                        <li><i class="fa fa-database"></i>&nbsp;&nbsp;<a href="database.html">Company
+                            Bookmarks</a></li>
+                        <li><i class="fa fa-user-circle"></i>&nbsp;&nbsp;<a href="profile-edit.html">Update
+                            Profile</a></li>
+                      </ul>
+                      <img src="assets/images/logo-1.png" alt="" class="img-fluid pt-2 pb-25">
+                      <img src="assets/images/logo-2.png" alt="" class="img-fluid pb-2">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div id="content" class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mx-auto">
+
+
+                <!-- Left Side Content -->
+                <div class="card border-secondary">
+                  <div class="card-header bg-red-extra text-white d-flex align-items-center">
+                    <button type="button" class="btn btn-sm btn-dark round pull-left" aria-expanded="false"
+                      onclick="javascript:history.go(-1)">
+                      <i class="fa fa-arrow-left"></i> &nbsp; Back
+                    </button>
+                    <h4 class="card-title text-center text-bold-600 text-uppercase text-white w-100">
+                      (1st Name Last Name)</h4> <i class="fa fa-question-circle text-white" data-toggle="popover" data-placement="bottom"
+                      data-content="" data-trigger="hover" data-original-title="Biz Dev Pipeline"></i>
+                  </div>
+                  <div class="card-content">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-white">
+                          <!-- <img src="assets/images/gallery/timeline.jpg" class="img-fluid rounded" alt="timeline image"> -->
+                          <div class="row no-gutters">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 px-25">
+                              <div class="card profile-card-with-cover border-lighten-2 mb-sm-25">
+                                <div class="card-img-top img-fluid bg-cover height-75 gin-user-img-cover">
+                                </div>
+                                <div class="card-profile-image">
+                                  <img src="assets/images/portrait/small/avatar-s-3.png" class="rounded-circle img-border" alt="Card image">
+                                </div>
+                                <div class="profile-card-with-cover-content text-center">
+                                  <div class="card-body p-md-25">
+                                    <h4 class="card-title mb-50 pb-25"><a href="profile.html" class="text-dark">Patricia Cotrim</a></h4>
+                                    <badge class="badge badge-secondary my-25">Game Design</badge>
+                            
+                                    <p class="py-50 mb-0"><b>Senior level designer</b> at <b>2nd Wave Gardens</b></p>
+                                    <p class="py-50 mb-0"><b>Website:</b> <br>www.website.com </p>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 px-25">
+                              <div class="game-history d-flex align-items-center">
+                                <img class="mr-1 round"
+                                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAB3CAMAAAAO5y+4AAAAe1BMVEXmABL////lAADkAAD87OzynqDmAAz//PzmAAbqVlftdnb++fnqUVP52dnsaWrymJrnHCP63t/1tbb99PT4zc751NXnKy7oOjz3xMb3yMjoMDPvg4X85ebwiYvnJSnxk5XzpafqS03ue37pQkX2vb7tb3HrXV/0ra/mFRm7CK40AAADUElEQVRoge2W29KqPAyGSYq1oiCICLKRnaD3f4UrATffdwC6ZphZM/+f54BdS942SdNaliAIgiAIgiAIgiAIgiAIgvC/A1EtB+K3qmpTXKPcXoI8uhY79Y2yUU6whiVZBx2aj5M9nalrGByq1RJUhyAke8nlw5Qxtkm1jDksi6BUXJKync4KmxPJRv5nt/wFBv0IIL/M2cSEZJWxNA+V3vluni9f86u/Ic8pF+A6YwJ7cjJqy+wom/fK0qfcDjs82mH58y9eZXOy+9A+PzuoOsvuxmwB+mlhRQ7JqBk3nIep0Sn1dzAHqN4/afTc6DizNrACcJ+6priuHMQC4Dg5VhOHw3RJl1eSqx66Xue0hj1OE0V9cm7UmHVD0rBDOQ6anwcb9DDq8idqL7OiQ23IcqqnBuoBDA5i3XVOU3/oOk6LXtPE/e2QYR0FpBtVqq7c4LZT+uI0jp8dbuxIbFeHbNBFzI52VN4vWWdGT3pTLsIMYIUPXXBgrU+DLumsODWo/pBFXzVUC5TaAzT9llpq4Cbgf7FZQ55sWTcN4BxfIa+HHGPfN5O6FIXypduXcPUHXZLcs25wsY4AN5WxbseZr8jlXUud9jom4bYlP6E6sC713GC9hsBi92IJUHw3X0/Z0IU/dVeKfw/G+VJZC12X2iPS3daoKPuykluQPOGmNIwd8pC6weJqbr4/40vh6MH+NV/y4/6lS84PKLBd59Wkuxt0y9VLN37pOizH05+Mr2l/5rOHKuHlNKFb8crAIkmK9q3rvXSN/dBd14ZTnizHkxWLjTf40tX+jK5lQ654Gv5bd89pW3CtdblTozwOziOC0XStwW6sV1y3OC6caDSQnP8mv1aKw5Qr/qqMPkCYQ2Ih5/MGKRt4YBWN2ObBYR+AC3nDahq3M25m4TN7jzzt+/6d3/mu+WLu/GTR1dfDhYyZtrZw7Ey2h65UQ3wc6zPivfXHKs9uSOZKvElprMc77QV6LC7D/XnRvz7QzaB+dbLev1jPJ8N3g3eKhn2a3eOw5c2ySBfbf1GlBZuMP238p4jPG+5i5w1e4nA8fdxIDTb5oscrykTnq4MEYl+eg0WOk7YdJGX/1XlyVP4X52dBEARBEARBEARBEARBEAThP8QfffY6HYLKP40AAAAASUVORK5CYII="
+                                  width="30" height="auto" alt="">
+                                lorem ipsum dolor sit amet
+                              </div>
+                              <div class="game-history d-flex align-items-center">
+                                <img class="mr-1 round"
+                                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC6sgDe1hum9M79dPCywPFUF8IN9Ix-I8LNCeMAlY&usqp=CAE&s"
+                                  width="30" height="auto" alt="">
+                                lorem ipsum dolor sit amet
+                              </div>
+                              <div class="game-history d-flex align-items-center">
+                                <img class="mr-1 round"
+                                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7sEV8U4tonfwO8LZc9BPI48CIpl36x8pHzqe57SM&usqp=CAE&s"
+                                  width="30" height="auto" alt="">
+                                lorem ipsum dolor sit amet
+                              </div>
+                              <div class="game-history d-flex align-items-center">
+                                <img class="mr-1 round"
+                                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAAWCAMAAADNT/NHAAAAyVBMVEX/////ywgMTaL/zwD/zQD/0QD/zAD/0AD/zgDGzeJhfbf/0wAAOKEAO6YASaQAS6MAR6UARaYAQagAP50AP6kAO6sAQ6ehkW7z9fnP1eYAOZtgbo0APJzpvy7xwyXe4u4AMZvp7PR5e4POrUx7kcFTcrJud4axvNhLbK+Fgnw7XJnCplYdUKDetzysmWZpg7qajHK6oV2QiHenlWrUsUY0WJtNZJSVpsylsdKIm8Y8Y6zjuzb3yBksWqd+fn+znWEAMaUAMq9XaZFLb2ugAAAFmUlEQVRIiZVW2ZqqOBAmEBZNCEmMiKiIS9suuLbabrQ9vv9DTQXU9vRcnG/qJkmRqr/2YBgPirrdyPif1PstA0r+qiWqdJ/77jBLKU3NYfPJeqsWVOyH1ScNPyv3C80qoyDD394fjGGQak4w1Iqju4LqW9T82RpG5dBtft4tqFKl9qPRVMn47W7ue1v5vi/jwpAx14eSJDU1LxrHQpqtUYupONCM3piqsDXZ9HcqjJdwTllxX9UOx1opytMeeHv6fOsVtne5ms484roEXbOwXbp88udJkszUssCV+gDU6cwXLZl2jW6bycmZ2K5N5iOVVowKVfuBbbugJdnIWm706P7SAdqq/BQmepf0AbdinA5VQ4eo1/YbxMMuIS62vH4Y6yiBFHEch2TtEndmwclyXQ97ZCCzqMbyDoE9AUmyZe3PWC2IhzzXhYt2ZypOUZwNtBCZMt63YeOdM9ozut1xVOJm/pogLxll2SiBa1+8BswjvXoOQtaK6itLJuHgrVeNs4UQWQkz2CGMyHqaTa82shLG/YGNHDL7Gq0SC2FrX1sCnItARYPLAYaNdw0zSOLnu9HTQTzQCUFOR4SM8amL0a5ACuTFuTjAr5+0w4FADrJ3QtRnHjClKROM7I0fBAFw7KsIPwAW7xVnQg0s5FwYM8UHGInwWTG9IrxNi7S+Hw66hkzhOIjs20MjipWLd+kBmBU6sq1Noj+kOuwmB0F7GphsD/qdkG9shOe+CcRXZKaCnQ3f+0IzAgly1jU0Q3ATwkSyL1evTvL9qHxdVOkEuB0f3GrSPJkWsMZSDTAxr5CwtX/UuAzfcW+AewkVqHb7vMBtDHxTXMHHpLADOBvwz2Km6jhOB0zYDLC39sDh9vEH951C5LyZDy0VLWMZl62VMhuf63tIABLsFdefYwiYzME9AscCJjRNCfq9qyhxg4zA5RGTkHnt6hks3WuBXfUH9+BvMeDSws33dFgy44lrbfx/QJvdp5UnLqvPoFRIi9/ID64m4eoa5PdTnehyElPbQXVwHUyaMZ2HVvALF1JVAt6HBjQvxtvBAHDx1q8+cPNdB2qVbEK2Lz164nLyH9wP2Xfx/LsoZbf/7eiA09c469Bb4YspRjeGMnE8z9MyJKNRiYtnLsakc1PZyQT/vIX48Recsj4eZ6FxN7JheTNV9JIdSsiPd/3uvdTVCG65kzLQ0QHIOIKIc9FU9B98KnCR5ZJBy6dj41gHNc5FPXG1WjwI7/ktkrmXMw+CHUKg4UsIVYQHaeXHuUzXpnMRGhiGLq19G8xPHDurK7/et3WZ5nd/txvTp3nlaexK3qPM+ASg8N1fuSh6XJ2x22chTDp7wnnD0sPg8JLgWBeJN+e0ncVhvg1r7+0bwdvCmaK3b3E3K/IbhI8Ha1zfgh/2l89gcvibCQ91zy6KRhJTPdP6XGinAzZKOkkGi87MvYpKyuWEQP2gj9sun1xIPXiTa+/enOFat7DMMwaNb5unh0yP8o4G3van2X5NrgIqDWp/IaT0R2CrC6MkJ8iGyhPwEDEzmOoOyGovkyPicuTABLdseBkcUjfZzkIkL5qEazOtHQ8CT/cRz5/lmIoBgZzCa2J71kIw0YIZa1nnbQIGwNNhCl1RfpAPl8PhMAukTkxLLF8c7pntYIGIa2kCXA5bNyniHCDgumSqEhvWi8p++iD1W/OHzJVWMjmdw9ukCVpf1YIbgQ/b8h01xuqsFSThKy78T1Dl7ycrTQ1hso8GUFkkxfZjJ/TSWInsxdoT9c3RppAZwdtZpf5t3cHeZbvhUHztvRZd3YHG4XWhif+Ja/SO+j+noFqt9lgfW9p+rK9dbjSXtbtQnEK5Nccphd+Ruk9rn1Dx7fJLCXRq09fjK0XNyt+p+Uuo9xAqBl3vMHwbV4+6SaM/JZq/FfwLiSGfeXj5T3cAAAAASUVORK5CYII="
+                                  width="30" height="auto" alt="">
+                                lorem ipsum dolor sit amet
+                              </div>
+                              <div class="game-history d-flex align-items-center">
+                                <img class="mr-1 round"
+                                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAB3CAMAAAAO5y+4AAAAe1BMVEXmABL////lAADkAAD87OzynqDmAAz//PzmAAbqVlftdnb++fnqUVP52dnsaWrymJrnHCP63t/1tbb99PT4zc751NXnKy7oOjz3xMb3yMjoMDPvg4X85ebwiYvnJSnxk5XzpafqS03ue37pQkX2vb7tb3HrXV/0ra/mFRm7CK40AAADUElEQVRoge2W29KqPAyGSYq1oiCICLKRnaD3f4UrATffdwC6ZphZM/+f54BdS942SdNaliAIgiAIgiAIgiAIgiAIgvC/A1EtB+K3qmpTXKPcXoI8uhY79Y2yUU6whiVZBx2aj5M9nalrGByq1RJUhyAke8nlw5Qxtkm1jDksi6BUXJKync4KmxPJRv5nt/wFBv0IIL/M2cSEZJWxNA+V3vluni9f86u/Ic8pF+A6YwJ7cjJqy+wom/fK0qfcDjs82mH58y9eZXOy+9A+PzuoOsvuxmwB+mlhRQ7JqBk3nIep0Sn1dzAHqN4/afTc6DizNrACcJ+6priuHMQC4Dg5VhOHw3RJl1eSqx66Xue0hj1OE0V9cm7UmHVD0rBDOQ6anwcb9DDq8idqL7OiQ23IcqqnBuoBDA5i3XVOU3/oOk6LXtPE/e2QYR0FpBtVqq7c4LZT+uI0jp8dbuxIbFeHbNBFzI52VN4vWWdGT3pTLsIMYIUPXXBgrU+DLumsODWo/pBFXzVUC5TaAzT9llpq4Cbgf7FZQ55sWTcN4BxfIa+HHGPfN5O6FIXypduXcPUHXZLcs25wsY4AN5WxbseZr8jlXUud9jom4bYlP6E6sC713GC9hsBi92IJUHw3X0/Z0IU/dVeKfw/G+VJZC12X2iPS3daoKPuykluQPOGmNIwd8pC6weJqbr4/40vh6MH+NV/y4/6lS84PKLBd59Wkuxt0y9VLN37pOizH05+Mr2l/5rOHKuHlNKFb8crAIkmK9q3rvXSN/dBd14ZTnizHkxWLjTf40tX+jK5lQ654Gv5bd89pW3CtdblTozwOziOC0XStwW6sV1y3OC6caDSQnP8mv1aKw5Qr/qqMPkCYQ2Ih5/MGKRt4YBWN2ObBYR+AC3nDahq3M25m4TN7jzzt+/6d3/mu+WLu/GTR1dfDhYyZtrZw7Ey2h65UQ3wc6zPivfXHKs9uSOZKvElprMc77QV6LC7D/XnRvz7QzaB+dbLev1jPJ8N3g3eKhn2a3eOw5c2ySBfbf1GlBZuMP238p4jPG+5i5w1e4nA8fdxIDTb5oscrykTnq4MEYl+eg0WOk7YdJGX/1XlyVP4X52dBEARBEARBEARBEARBEAThP8QfffY6HYLKP40AAAAASUVORK5CYII="
+                                  width="30" height="auto" alt="">
+                                lorem ipsum dolor sit amet
+                              </div>
+                              <div class="game-history d-flex align-items-center">
+                                <img class="mr-1 round"
+                                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAB3CAMAAAAO5y+4AAAAe1BMVEXmABL////lAADkAAD87OzynqDmAAz//PzmAAbqVlftdnb++fnqUVP52dnsaWrymJrnHCP63t/1tbb99PT4zc751NXnKy7oOjz3xMb3yMjoMDPvg4X85ebwiYvnJSnxk5XzpafqS03ue37pQkX2vb7tb3HrXV/0ra/mFRm7CK40AAADUElEQVRoge2W29KqPAyGSYq1oiCICLKRnaD3f4UrATffdwC6ZphZM/+f54BdS942SdNaliAIgiAIgiAIgiAIgiAIgvC/A1EtB+K3qmpTXKPcXoI8uhY79Y2yUU6whiVZBx2aj5M9nalrGByq1RJUhyAke8nlw5Qxtkm1jDksi6BUXJKync4KmxPJRv5nt/wFBv0IIL/M2cSEZJWxNA+V3vluni9f86u/Ic8pF+A6YwJ7cjJqy+wom/fK0qfcDjs82mH58y9eZXOy+9A+PzuoOsvuxmwB+mlhRQ7JqBk3nIep0Sn1dzAHqN4/afTc6DizNrACcJ+6priuHMQC4Dg5VhOHw3RJl1eSqx66Xue0hj1OE0V9cm7UmHVD0rBDOQ6anwcb9DDq8idqL7OiQ23IcqqnBuoBDA5i3XVOU3/oOk6LXtPE/e2QYR0FpBtVqq7c4LZT+uI0jp8dbuxIbFeHbNBFzI52VN4vWWdGT3pTLsIMYIUPXXBgrU+DLumsODWo/pBFXzVUC5TaAzT9llpq4Cbgf7FZQ55sWTcN4BxfIa+HHGPfN5O6FIXypduXcPUHXZLcs25wsY4AN5WxbseZr8jlXUud9jom4bYlP6E6sC713GC9hsBi92IJUHw3X0/Z0IU/dVeKfw/G+VJZC12X2iPS3daoKPuykluQPOGmNIwd8pC6weJqbr4/40vh6MH+NV/y4/6lS84PKLBd59Wkuxt0y9VLN37pOizH05+Mr2l/5rOHKuHlNKFb8crAIkmK9q3rvXSN/dBd14ZTnizHkxWLjTf40tX+jK5lQ654Gv5bd89pW3CtdblTozwOziOC0XStwW6sV1y3OC6caDSQnP8mv1aKw5Qr/qqMPkCYQ2Ih5/MGKRt4YBWN2ObBYR+AC3nDahq3M25m4TN7jzzt+/6d3/mu+WLu/GTR1dfDhYyZtrZw7Ey2h65UQ3wc6zPivfXHKs9uSOZKvElprMc77QV6LC7D/XnRvz7QzaB+dbLev1jPJ8N3g3eKhn2a3eOw5c2ySBfbf1GlBZuMP238p4jPG+5i5w1e4nA8fdxIDTb5oscrykTnq4MEYl+eg0WOk7YdJGX/1XlyVP4X52dBEARBEARBEARBEARBEAThP8QfffY6HYLKP40AAAAASUVORK5CYII="
+                                  width="30" height="auto" alt="">
+                                lorem ipsum dolor sit amet
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 bg-white">
+                              <div class="row withdaw-request-meeting-calendar-buttons profile-social-btns">
+                                <div class="col-12">
+                                  <div class=" text-center">
+                                    <div class="d-flex flex-column my-50">
+                                      <button type="button" onclick="location.href='#'"
+                                        class="btn btn-sm btn-outline-message btn-round pull-right mt-25 mx-auto btn-100" data-toggle="tooltip"
+                                        data-placement="top" title="" data-original-title="Follow">
+                                        <i class="fa fa-rss-square"></i> Follow
+                                      </button>
+                                      <button type="button" class="btn btn-outline-connect btn-sm btn-round pull-right mt-25 mx-auto btn-100">
+                                        <i class="fa fa-handshake-o"></i> Connect
+                                      </button>
+                                      <button type="button" onclick="location.href='#'"
+                                        class="btn btn-sm btn-outline-message btn-round pull-right mt-25 mx-auto btn-100" data-toggle="modal"
+                                        data-target="#exampleModalCenter">
+                                        <i class="fa fa-comment"></i> Message
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mx-auto">
+                                  <div class="socially-icons px-50 ml-25 border-0" data-toggle="tooltip" data-placement="top" title=""
+                                    data-original-title="Connections" aria-describedby="tooltip510311">
+                                    <span onclick="location.href='user-connection.html'"><i class="fa fa-handshake-o fs-17 handshaky"></i>
+                                      (xx)</span>
+                                  </div>
+                                  <div class="socially-icons px-50 ml-25 border-0" data-toggle="tooltip" data-placement="top" title=""
+                                    data-original-title="Mutual Connections">
+                                    <a data-toggle="modal" data-target="#mutualConnections">
+                                      <i class="fa fa-link fs-17"></i> (xx)
+                                    </a>
+                                  </div>
+                                  <div class="socially-icons px-50 ml-25 border-0" data-toggle="tooltip" data-placement="top" title=""
+                                    data-original-title="Meeting Calendar">
+                                    <img src="assets/images/icons/Icons-in-Black-02.svg" width="35" alt=""> (xx)
+                                  </div>
+                                </div>
+                                <p class="py-50 mb-0 text-center w-100"><b>Member Since:</b> <br>xx/xx/xxxx </p>
+                                <div class="profile-icons d-none d-sm-block">
+                                  <a href="javascript:(void);"><i class="fa fa-facebook"></i></a>
+                                  <a href="javascript:(void);"><i class="fa fa-twitter"></i></a>
+                                  <a href="javascript:(void);"><i class="fa fa-instagram"></i></a>
+                                  <a href="javascript:(void);"><i class="fa fa-whatsapp"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div class="row no-gutters">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 px-25">
+                              <div class="d-flex justify-content-center align-items-center">
+                                <div class="d-flex red-diamond" data-toggle="tooltip" data-placement="top" title="" data-original-title="Pontential">
+                                  <div class="p-25">
+                                    <img src="assets/images/diamonds-05.svg" width="30" alt="" class="img-fluid bg-transparent p-0 border-0">
+                                  </div>
+                                  <div class="p-25">
+                                    <img src="assets/images/diamonds-05.svg" width="30" alt="" class="img-fluid bg-transparent p-0 border-0">
+                                  </div>
+                                  <div class="p-25">
+                                    <img src="assets/images/diamonds-03.svg" width="30" alt="" class="img-fluid bg-transparent p-0 border-0">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="profile-icons d-block d-sm-none">
+                                <a href="javascript:(void);"><i class="fa fa-facebook"></i></a>
+                                <a href="javascript:(void);"><i class="fa fa-twitter"></i></a>
+                                <a href="javascript:(void);"><i class="fa fa-instagram"></i></a>
+                                <a href="javascript:(void);"><i class="fa fa-whatsapp"></i></a>
+                              </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 px-25">
+                              <button type="button" name="button"
+                                class="btn btn-social btn-block btn-info rounded-bottom btn-suggest-meeting text-white fs-11 fs-sm-11">Add
+                                To BD
+                                Contacts<i class="fa fa-address-card float-left"></i>
+                              </button>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 px-25">
+                              <button type="button" name="button"
+                                class="btn btn-social btn-block bg-success-2 rounded-bottom btn-suggest-meeting text-white fs-11 fs-sm-11">Suggest
+                                Meeting<i class="fa fa-calendar float-left bg-success-2"></i></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card border-secondary">
+                  <div class="card-header bg-red-extra text-white d-flex align-items-center">
+                    <h4 class="card-title text-center text-bold-600 text-uppercase text-white w-100">
+                      About</h4> 
+                  </div>
+                  <div class="card-content">
+                    <div class="card-body">
+                      <div class="row no-gutters">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, iste. Iste nobis praesentium similique ducimus tempore nesciunt voluptates repellat error alias, eligendi reiciendis quas neque eum dolore! Sit, ipsa natus!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, iste. Iste nobis praesentium similique ducimus tempore nesciunt voluptates repellat error alias, eligendi reiciendis quas neque eum dolore! Sit, ipsa natus!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, iste. Iste nobis praesentium similique ducimus tempore nesciunt voluptates repellat error alias, eligendi reiciendis quas neque eum dolore! Sit, ipsa natus!
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- nav pills to only display on mobile  -->
+                <nav class="nav nav-pills nav-justified d-flex d-sm-none profile-tablio">
+                  <a class="nav-item nav-link active" data-toggle="pill" href="#postilio"><i class="fa fa-list"></i><br>Posts (xx)</a>
+                  <a class="nav-item nav-link" data-toggle="pill" href="#activitilio"><i class="fa fa-list"></i><br>Activity (xx)</a>
+                  <a class="nav-item nav-link" data-toggle="pill" href="#gallerio"><i class="fa fa-picture-o"></i><br>Gallery (xx)</a>
+                  <a class="nav-item nav-link" data-toggle="pill" href="#videolio" tabindex="-1" aria-disabled="true"><i class="fa fa-video-camera"></i><br>Videos (xx)</a>
+                </nav>                
+                <div class="tab-content" id="pills-tabContent d-block d-sm-none">
+                  <div class="tab-pane fade show active" id="postilio" role="tabpanel">
+                    <div class="card border-secondary">
+                      <div class="card-header bg-red-extra text-white d-flex align-items-center">
+                        <h4 class="card-title text-center text-bold-600 text-uppercase text-white w-100">
+                          Posts</h4>
+                      </div>
+                      <div class="card-content">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="card tl-card mb-2">
+                              <div class="tl-post-header d-flex align-items-center mb-1">
+                                <div class="d-flex align-items-center">
+                                  <img src="assets/images/portrait/small/avatar-s-4.png" class="round mr-50" width="30" alt="">
+                                  <div class="tldpname">Jane Doe</div>
+                                </div>
+                                <a data-toggle="modal" data-target="#pageEdits" class="ui-link"><i
+                                    class="fa fa-ellipsis-h ellipsis--options"></i></a>
+                              </div>
+                              <div class="tl-art-work">
+                                <img
+                                  src="https://cached.imagescaler.hbpl.co.uk/resize/scaleHeight/815/cached.offlinehbpl.hbpl.co.uk/news/OMC/PlayStationsFestivalofPlay-20151126022928392.jpg"
+                                  alt="">
+                              </div>
+                              <hr class="m-0">
+                              <div class="row p-1">
+                                <div class="col-12">
+                                  <div class="d-flex">
+                                    <span class="pr-1 mr-auto">
+                                      <i class="fa fa-heart"></i> Like
+                                    </span>
+                                    <span class="pr-1 ml-auto">
+                                      <i class="fa fa-share"></i> Share
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              <hr class="m-0">
+                              <div class="row font-small-2">
+                                <div class="col">22 Likes</div>
+                                <div class="col">30 Comments</div>
+                                <div class="col">15 Shares</div>
+                              </div>
+                              <hr class="m-0">
+                              <div class="mt-2 ml-2 mb-0 mr-2 cap-section">
+                                <div class="float-left text-left mt-50">
+                                  <strong>John Doe</strong> Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+                                  sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                </div>
+                    
+                                <div class="float-left text-left mt-50">
+                                  <strong>John Doe</strong> Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+                                  sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                </div>
+                    
+                                <div class="float-left text-left mt-50">
+                                  <strong>John Doe</strong> Lorem ipsum dolor sit amet, consectetuer
+                                  adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+                                  sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                </div>
+                    
+                                <a href="javascript:void();" class="btn btn-sm btn-outline-info mt-1" data-toggle="collapse cursor-pointer"
+                                  aria-expanded="false" aria-controls="collapseExample"><strong>View all
+                                    comments
+                                    (3)</strong>
+                                </a>
+                              </div>
+                              <div class="collapse" id="collapseE2">
+                                <div class="card cap-section mb-0">
+                                  <div class="mb-1 ml-1 mr-1 text-left">
+                                    <p class="m-0 float-left the-comment"><span class="comm-dpname">Jane
+                                        Doe</span> craft beer labore wes anderson cred nesciunt
+                                      sapiente ea proident.</p>
+                                  </div>
+                                  <div class="mb-1 ml-1 mr-1 text-left">
+                                    <p class="m-0 float-left the-comment"><span class="comm-dpname">Jane
+                                        Doe</span> Ne nec accusamus interesset. Eos ea volutpat
+                                      sadipscing. Posse facilis his id, ei est unum fabulas. Ad
+                                      nam nonumy tritani habemus, ei sed graece oportere
+                                      adolescens. Vix ludus
+                                      decore sententiae cu.</p>
+                                  </div>
+                                  <div class="mb-1 ml-1 mr-1 text-left">
+                                    <p class="m-0 float-left the-comment"><span class="comm-dpname">Jane
+                                        Doe</span> Lorem ipsum dolor sit amet, in nisl suavitate
+                                      scriptorem nec, idque tamquam diceret qui in, qui at doming
+                                      nemore eruditi. Eam id vocent accumsan. Qui cu nominavi
+                                      oporteat verterem.
+                                      Eu vivendo gubergren his, vel in cibo ubique similique. Nec
+                                      primis commune ponderum te, mea et fugit dolorum repudiare.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <form>
+                                <hr>
+                                <div class="media-list p-50">
+                                  <div class="media p-0">
+                                    <a href="#" class="media-left">
+                                      <img src="assets/images/portrait/small/avatar-s-9.png"
+                                        class="img-fluid rounded-circle border-white border-3" width="40" height="40" alt="">
+                                    </a>
+                                    <div class="media-body">
+                                      <fieldset>
+                                        <div class="input-group">
+                                          <input type="text" class="form-control" placeholder="Add Comment"
+                                            aria-describedby="sizing-addon2">
+                                          <div class="input-group-append">
+                                            <span class="input-group-text">Post</span>
+                                          </div>
+                                        </div>
+                                      </fieldset>
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="activitilio" role="tabpanel">
+                    <div class="card border-secondary">
+                      <div class="card-header bg-red-extra text-white d-flex align-items-center">
+                        <h4 class="card-title text-center text-bold-600 text-uppercase text-white w-100">
+                          Activity</h4>
+                      </div>
+                      <div class="card-body">
+                        <div class="row no-gutters">
+                          <div class="row">
+                            <div class="media py-25">
+                              <img src="assets/images/portrait/small/avatar-s-8.png" width="30" alt=""
+                                class="img-fluid rounded-circle width-50">
+                              <div class="media-body mx-1 mt-0">
+                                <p class="m-0 text-small"><a href="#" class="text-danger">John Doe</a> posted an update
+                                </p>
+                                <small class="m-0 text-small">5 hours ago</small>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="media py-25">
+                              <img src="assets/images/portrait/small/avatar-s-8.png" width="30" alt=""
+                                class="img-fluid rounded-circle width-50">
+                              <div class="media-body mx-1 mt-0">
+                                <p class="m-0 text-small"><a href="#" class="text-danger">John Doe</a> posted an update
+                                </p>
+                                <small class="m-0 text-small">5 hours ago</small>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="media py-25">
+                              <img src="assets/images/portrait/small/avatar-s-8.png" width="30" alt=""
+                                class="img-fluid rounded-circle width-50">
+                              <div class="media-body mx-1 mt-0">
+                                <p class="m-0 text-small"><a href="#" class="text-danger">John Doe</a> posted an update
+                                </p>
+                                <small class="m-0 text-small">5 hours ago</small>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <button class="btn-sm btn-danger-2 mx-auto">View All</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="gallerio" role="tabpanel">
+                    <div class="card border-secondary">
+                      <div class="card-header bg-red-extra text-white d-flex align-items-center">
+                        <h4 class="card-title text-center text-bold-600 text-uppercase text-white w-100">
+                          Gallery</h4>
+                      </div>
+                      <div class="card-body p-75">
+                        <div class="row no-gutters">
+                          <div class="col-6 p-25">
+                            <img src="assets/images/gallery/1.jpg" class="img-fluid" alt="">
+                          </div>
+                          <div class="col-6 p-25">
+                            <img src="assets/images/gallery/1.jpg" class="img-fluid" alt="">
+                          </div>
+                          <div class="col-6 p-25">
+                            <img src="assets/images/gallery/1.jpg" class="img-fluid" alt="">
+                          </div>
+                          <div class="col-6 p-25">
+                            <img src="assets/images/gallery/1.jpg" class="img-fluid" alt="">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <button class="btn-sm btn-danger-2 mx-auto">View All</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="videolio" role="tabpanel">
+                    <div class="card border-secondary">
+                      <div class="card-header bg-red-extra text-white d-flex align-items-center">
+                        <h4 class="card-title text-center text-bold-600 text-uppercase text-white w-100">
+                          Videos</h4>
+                      </div>
+                      <div class="card-body p-75">
+                        <div class="row no-gutters">
+                          <div class="col-6 p-25">
+                            <iframe width="113" src="https://www.youtube.com/embed/w98bipPjJD4" title="YouTube video player" frameborder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen=""></iframe>
+                          </div>
+                          <div class="col-6 p-25">
+                            <iframe width="113" src="https://www.youtube.com/embed/w98bipPjJD4" title="YouTube video player" frameborder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen=""></iframe>
+                          </div>
+                          <div class="col-6 p-25">
+                            <iframe width="113" src="https://www.youtube.com/embed/w98bipPjJD4" title="YouTube video player" frameborder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen=""></iframe>
+                          </div>
+                          <div class="col-6 p-25">
+                            <iframe width="113" src="https://www.youtube.com/embed/w98bipPjJD4" title="YouTube video player" frameborder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen=""></iframe>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <button class="btn-sm btn-danger-2 mx-auto">View All</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End. nav pills to only display on mobile  -->
+
+                <div class="card border-secondary d-none d-sm-block">
+                  <div class="card-header bg-red-extra text-white d-flex align-items-center">
+                    <h4 class="card-title text-center text-bold-600 text-uppercase text-white w-100">
+                      Posts</h4> 
+                  </div>
+                  <div class="card-content">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="card tl-card mb-2">
+                          <div class="tl-post-header d-flex align-items-center mb-1">
+                            <div class="d-flex align-items-center">
+                              <img src="assets/images/portrait/small/avatar-s-4.png" class="round mr-50" width="30" alt="">
+                              <div class="tldpname">Jane Doe</div>
+                            </div>
+                            <a data-toggle="modal" data-target="#pageEdits" class="ui-link"><i
+                                class="fa fa-ellipsis-h ellipsis--options"></i></a>
+                          </div>
+                          <div class="tl-art-work">
+                            <img
+                              src="https://cached.imagescaler.hbpl.co.uk/resize/scaleHeight/815/cached.offlinehbpl.hbpl.co.uk/news/OMC/PlayStationsFestivalofPlay-20151126022928392.jpg"
+                              alt="">
+                          </div>
+                          <hr class="m-0">
+                          <div class="row p-1">
+                            <div class="col-12">
+                              <div class="d-flex">
+                                <span class="pr-1 mr-auto">
+                                  <i class="fa fa-heart"></i> Like
+                                </span>
+                                <span class="pr-1 ml-auto">
+                                  <i class="fa fa-share"></i> Share
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <hr class="m-0">
+                          <div class="row font-small-2">
+                            <div class="col">22 Likes</div>
+                            <div class="col">30 Comments</div>
+                            <div class="col">15 Shares</div>
+                          </div>
+                          <hr class="m-0">
+                          <div class="mt-2 ml-2 mb-0 mr-2 cap-section">
+                            <div class="float-left text-left mt-50">
+                              <strong>John Doe</strong> Lorem ipsum dolor sit amet, consectetuer
+                              adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+                              sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            </div>
+                        
+                            <div class="float-left text-left mt-50">
+                              <strong>John Doe</strong> Lorem ipsum dolor sit amet, consectetuer
+                              adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+                              sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            </div>
+                        
+                            <div class="float-left text-left mt-50">
+                              <strong>John Doe</strong> Lorem ipsum dolor sit amet, consectetuer
+                              adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+                              sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            </div>
+                        
+                            <a href="javascript:void();" class="btn btn-sm btn-outline-info mt-1" data-toggle="collapse cursor-pointer"
+                              aria-expanded="false" aria-controls="collapseExample"><strong>View all
+                                comments
+                                (3)</strong>
+                            </a>
+                          </div>
+                          <div class="collapse" id="collapseE2">
+                            <div class="card cap-section mb-0">
+                              <div class="mb-1 ml-1 mr-1 text-left">
+                                <p class="m-0 float-left the-comment"><span class="comm-dpname">Jane
+                                    Doe</span> craft beer labore wes anderson cred nesciunt
+                                  sapiente ea proident.</p>
+                              </div>
+                              <div class="mb-1 ml-1 mr-1 text-left">
+                                <p class="m-0 float-left the-comment"><span class="comm-dpname">Jane
+                                    Doe</span> Ne nec accusamus interesset. Eos ea volutpat
+                                  sadipscing. Posse facilis his id, ei est unum fabulas. Ad
+                                  nam nonumy tritani habemus, ei sed graece oportere
+                                  adolescens. Vix ludus
+                                  decore sententiae cu.</p>
+                              </div>
+                              <div class="mb-1 ml-1 mr-1 text-left">
+                                <p class="m-0 float-left the-comment"><span class="comm-dpname">Jane
+                                    Doe</span> Lorem ipsum dolor sit amet, in nisl suavitate
+                                  scriptorem nec, idque tamquam diceret qui in, qui at doming
+                                  nemore eruditi. Eam id vocent accumsan. Qui cu nominavi
+                                  oporteat verterem.
+                                  Eu vivendo gubergren his, vel in cibo ubique similique. Nec
+                                  primis commune ponderum te, mea et fugit dolorum repudiare.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <form>
+                            <hr>
+                            <div class="media-list p-50">
+                              <div class="media p-0">
+                                <a href="#" class="media-left">
+                                  <img src="assets/images/portrait/small/avatar-s-9.png" class="img-fluid rounded-circle border-white border-3"
+                                    width="40" height="40" alt="">
+                                </a>
+                                <div class="media-body">
+                                  <fieldset>
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="Add Comment" aria-describedby="sizing-addon2">
+                                      <div class="input-group-append">
+                                        <span class="input-group-text">Post</span>
+                                      </div>
+                                    </div>
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Tab links -->
+              </div>
+
+              <div class="col-xl-3 col-lg-12 col-md-12 hide-mobile d-none d-xl-block pl-0">
+                <div class="card border-secondary">
+                  <div class="card-header bg-red-extra text-white d-flex align-items-center">
+                    <h4 class="card-title text-center text-bold-600 text-uppercase text-white w-100">
+                      Gallery</h4>
+                  </div>
+                  <div class="card-body p-75">
+                    <div class="row no-gutters">
+                      <div class="col-6 p-25">
+                        <img src="assets/images/gallery/1.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="col-6 p-25">
+                        <img src="assets/images/gallery/1.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="col-6 p-25">
+                        <img src="assets/images/gallery/1.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="col-6 p-25">
+                        <img src="assets/images/gallery/1.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <button class="btn-sm btn-danger-2 mx-auto">View All</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card border-secondary">
+                  <div class="card-header bg-red-extra text-white d-flex align-items-center">
+                    <h4 class="card-title text-center text-bold-600 text-uppercase text-white w-100">
+                      Videos</h4>
+                  </div>
+                  <div class="card-body p-75">
+                    <div class="row no-gutters">
+                      <div class="col-6 p-25">
+                        <iframe width="113" src="https://www.youtube.com/embed/w98bipPjJD4" title="YouTube video player"
+                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen></iframe>
+                      </div>
+                      <div class="col-6 p-25">
+                        <iframe width="113" src="https://www.youtube.com/embed/w98bipPjJD4" title="YouTube video player"
+                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen></iframe>
+                      </div>
+                      <div class="col-6 p-25">
+                        <iframe width="113" src="https://www.youtube.com/embed/w98bipPjJD4" title="YouTube video player"
+                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen></iframe>
+                      </div>
+                      <div class="col-6 p-25">
+                        <iframe width="113" src="https://www.youtube.com/embed/w98bipPjJD4" title="YouTube video player"
+                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <button class="btn-sm btn-danger-2 mx-auto">View All</button>
+                    </div>
+                  </div>
+                </div> <div class="card border-secondary">
+                  <div class="card-header bg-red-extra text-white d-flex align-items-center">
+                    <h4 class="card-title text-center text-bold-600 text-uppercase text-white w-100">
+                      Activity</h4>
+                  </div>
+                  <div class="card-body">
+                    <div class="row no-gutters">
+                      <div class="row">
+                        <div class="media py-25">
+                          <img src="assets/images/portrait/small/avatar-s-8.png" width="30" alt="" class="img-fluid rounded-circle width-50">
+                          <div class="media-body mx-1 mt-0">
+                            <p class="m-0 text-small"><a href="#" class="text-danger">John Doe</a> posted an update
+                            </p>
+                            <small class="m-0 text-small">5 hours ago</small>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="media py-25">
+                          <img src="assets/images/portrait/small/avatar-s-8.png" width="30" alt="" class="img-fluid rounded-circle width-50">
+                          <div class="media-body mx-1 mt-0">
+                            <p class="m-0 text-small"><a href="#" class="text-danger">John Doe</a> posted an update
+                            </p>
+                            <small class="m-0 text-small">5 hours ago</small>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="media py-25">
+                          <img src="assets/images/portrait/small/avatar-s-8.png" width="30" alt="" class="img-fluid rounded-circle width-50">
+                          <div class="media-body mx-1 mt-0">
+                            <p class="m-0 text-small"><a href="#" class="text-danger">John Doe</a> posted an update
+                            </p>
+                            <small class="m-0 text-small">5 hours ago</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <button class="btn-sm btn-danger-2 mx-auto">View All</button>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- End: Who is online-->
+              </div>
+
+            </div>
+          </section>
+          <!--/ User Feed -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END: Content-->
+
+  <!--Added to Biz Dev modal-->
+  <div class="modal fade" id="addedToCRM" tabindex="-1" role="dialog" aria-labelledby="addedToCRMLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-bottom-light">
+          <h5 class="modal-title text-uppercase text-bold-600" id="addedToCRMLabel">Global Games Industry network</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Successfully added to Biz Dev
+        </div>
+        <div class="modal-footer border-top-light">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- mtual connections modal  -->
+  <div class="modal fade" id="mutualConnections" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-bottom-light">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body pb-4">
+          <a href="mutual-connections.html" class="text-dark">
+            <div class="d-flex align-items-center">
+              <div class="images-mutual">
+                <img src="assets/images/portrait/small/avatar-s-1.png" alt=""
+                  class="img-fluid rounded-circle width-30 mrb-5px">
+                <img src="assets/images/portrait/small/avatar-s-1.png" alt=""
+                  class="img-fluid rounded-circle width-30 mrb-5px mutual-con-image">
+              </div>
+              <div class="w-100">
+                <p class="mb-0"><a href="mutual-connections.html" class="text-dark">7 Mutual Connections</a></p>
+                <p class="mb-0"><small><a href="mutual-connections.html">You and Lee both know Whitney Deason, Harold
+                      "Mac" Deason and 6
+                      others (Tap to view)</a></small></p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="col-md-4 m-auto social-icon-section">
+      <div class="col-3 social-icon">
+        <a href="#"><i class="fa fa-facebook-square"></i></a>
+      </div>
+      <div class="col-3 social-icon">
+        <a href="#"><i class="fa fa-twitter-square"></i></a>
+      </div>
+      <div class="col-3 social-icon">
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+      </div>
+      <div class="col-3 social-icon">
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="abt-link-section">
+      <a href="#">IMPRINT / IMPRESSUM</a>
+    </div>
+    <div class="p-2">
+      &copy;2020 Games Industry Network
+    </div>
+  </footer>
+
+
+  <!-- BEGIN: Vendor JS-->
+  <script src="assets/js/vendors/js/vendors.min.js"></script>
+  <!-- BEGIN Vendor JS-->
+
+  <!-- BEGIN: Page Vendor JS-->
+  <script src="assets/js/vendors/js/ui/jquery.sticky.js"></script>
+  <script src="assets/js/vendors/jquery.star-rating-svg.js"></script>
+  <script src="assets/js/ratings-callback.js"></script>
+  <script src="assets/js/nav-toggler.js"></script>
+  <!-- END: Page Vendor JS-->
+
+  <!-- Connect Button JS -->
+  <script type="text/javascript">
+    function change() // no ';' here
+    {
+      var elem = document.getElementById("connectButton");
+      if (elem.innerHTML == "Withdraw Request") elem.innerHTML = "Pending Request";
+      else if (elem.innerHTML == "Pending Request") elem.innerHTML = "Connect";
+      else elem.innerHTML = "Withdraw Request";
+    }
+  </script>
+  <!-- END: Connect Button JS-->
+
+</body>
+<!-- END: Body-->
+
+
+</html>
